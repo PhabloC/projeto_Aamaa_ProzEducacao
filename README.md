@@ -32,6 +32,7 @@ Para obter mais informações sobre o projeto, entre em contato com a equipe de 
 - Cristiano Agnaldo Mulinari - [LinkedIn](https://www.linkedin.com/in/cristiano-mulinari-tecnologia/)
 - Monik de Pádua - [LinkedIn](https://www.linkedin.com/in/monikpaduaa)
 - Phablo Carvalho - [LinkedIn](https://www.linkedin.com/in/phablo--carvalho/)
+- Elisangela Macedo - [linkedin](https://www.linkedin.com/in/macedoelisangela/).
 - Professora Jeice Santos - [LinkedIn](https://www.linkedin.com/in/jeicesantos/)
 
 Fique à vontade para entrar em contato conosco para qualquer dúvida ou colaboração.
