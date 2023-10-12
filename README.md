@@ -30,9 +30,9 @@ Este projeto está atualmente em desenvolvimento e deverá ser finalizado até 1
 Para obter mais informações sobre o projeto, entre em contato com a equipe de desenvolvimento:
 
 - Cristiano Agnaldo Mulinari - [LinkedIn](https://www.linkedin.com/in/cristiano-mulinari-tecnologia/)
+- Elisangela Macedo - [Linkedin](https://www.linkedin.com/in/macedoelisangela/)
 - Monik de Pádua - [LinkedIn](https://www.linkedin.com/in/monikpaduaa)
 - Phablo Carvalho - [LinkedIn](https://www.linkedin.com/in/phablo--carvalho/)
-- Elisangela Macedo - [Linkedin](https://www.linkedin.com/in/macedoelisangela/)
 - Rodrigo Castro da Silva - [Linkedin](linkedin.com/in/rodrigo-castro-silva/).
 - Professora Jeice Santos - [LinkedIn](https://www.linkedin.com/in/jeicesantos/)
 
