@@ -33,6 +33,7 @@ Para obter mais informações sobre o projeto, entre em contato com a equipe de 
 - Monik de Pádua - [LinkedIn](https://www.linkedin.com/in/monikpaduaa)
 - Phablo Carvalho - [LinkedIn](https://www.linkedin.com/in/phablo--carvalho/)
 - Elisangela Macedo - [Linkedin](https://www.linkedin.com/in/macedoelisangela/)
+- Rodrigo Castro da Silva - [Linkedin](linkedin.com/in/rodrigo-castro-silva/).
 - Professora Jeice Santos - [LinkedIn](https://www.linkedin.com/in/jeicesantos/)
 
 Fique à vontade para entrar em contato conosco para qualquer dúvida ou colaboração.
