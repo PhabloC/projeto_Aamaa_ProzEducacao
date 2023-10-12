@@ -1,0 +1,63 @@
+@import url(global.css);
+*{
+    font-family: roboto;
+}
+
+header{
+    display: flex;    
+}
+header figure img{    
+    width: 10rem;    
+}
+header nav ul{   
+    display: flex;
+    list-style: none;
+    margin: 3rem;
+}
+header nav ul li a{
+    background-color: #6488cf;
+    color: white;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    margin-left: 5rem;
+}
+main section figure {      
+    width: 100%;
+    height: 25%;  
+    position: relative;   
+}
+main section figure img{   
+    width: 100%;
+    height: 60%; 
+    object-fit: cover;
+    position: relative;
+}
+main section figure h1{ 
+    color:#6488cf;    
+    position: absolute;
+    font-size: 40px;
+    font-weight: 990;
+    top: 20%;
+    left: 36%;
+}
+
+footer{
+    width: 100%;
+    background-color: #6488cf;
+    display: flex;    
+    margin: 0;
+    padding: auto;
+
+}
+footer ul{
+    margin: 5rem 10rem 5rem;
+    list-style: none;
+    font-size: small;
+}
+footer figure img{
+    margin: 5rem 10rem 5rem;
+    width: 10rem;
+    
+}
