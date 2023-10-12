@@ -52,9 +52,13 @@ footer{
 
 }
 footer ul{
+    color: white;
     margin: 5rem 10rem 5rem;
     list-style: none;
     font-size: small;
+}
+footer ul li a{
+    color: white;
 }
 footer figure img{
     margin: 5rem 10rem 5rem;
