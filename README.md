@@ -8,7 +8,6 @@ Este projeto faz parte da conclusão do curso Talento Cloud Pro, com o apoio da 
 
 - Cristiano Agnaldo Mulinari
 - Elisangela de Macedo e Silva
-- Monik de Pádua
 - Phablo Carvalho
 - Rodrigo Castro da Silva
 
@@ -31,7 +30,6 @@ Para obter mais informações sobre o projeto, entre em contato com a equipe de 
 
 - Cristiano Agnaldo Mulinari - [LinkedIn](https://www.linkedin.com/in/cristiano-mulinari-tecnologia/)
 - Elisangela Macedo - [Linkedin](https://www.linkedin.com/in/macedoelisangela/)
-- Monik de Pádua - [LinkedIn](https://www.linkedin.com/in/monikpaduaa)
 - Phablo Carvalho - [LinkedIn](https://www.linkedin.com/in/phablo--carvalho/)
 - Rodrigo Castro da Silva - [Linkedin](linkedin.com/in/rodrigo-castro-silva/).
 - Professora Jeice Santos - [LinkedIn](https://www.linkedin.com/in/jeicesantos/)
