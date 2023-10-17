@@ -44,7 +44,7 @@ main section figure img{
 main section figure h1{ 
     color:linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);    
     position: absolute;
-    font-size: 40px;
+    font-size: 5rem;
     font-weight: 990;
     top: 20%;
     left: 36%;
@@ -60,6 +60,7 @@ main article{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
 footer{   
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
@@ -77,6 +78,7 @@ footer ul{
     font-size: small;
 }
 footer ul li{
+    margin-bottom: 5px;
     justify-content: space-between;
 }
 footer ul li a{
