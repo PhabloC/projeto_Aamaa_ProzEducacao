@@ -56,7 +56,7 @@ main article{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 footer{   
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
