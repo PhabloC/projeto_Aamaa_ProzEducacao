@@ -12,7 +12,7 @@ header{
     margin-bottom: 3px;   
 }
 header figure img{    
-    width: 10rem;    
+    width: 55px;    
 }
 header nav ul{   
     display: flex;
@@ -27,6 +27,9 @@ header nav ul li a{
     margin: 5px;
     text-decoration: none;
     margin-left: 5rem;
+}
+header nav ul li a:hover{
+    color: #4dbfd7;
 }
 main section figure {      
     width: 100%;
