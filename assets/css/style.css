@@ -67,8 +67,20 @@ footer ul{
     list-style: none;
     font-size: small;
 }
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block; /* Para empilhar os links verticalmente */
+    margin-bottom: 10px; /* Adicionar espaço entre os links */
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+}
+footer ul li a:hover{
+    color: #4dbfd7;
+}
 footer figure img{
-    margin: 5rem 10rem 5rem;
-    width: 10rem;
+    width: 100px; /* Defina o tamanho desejado para a imagem */
+    align-self: flex-start; /* Alinhe a imagem no canto direito */
+    margin-top: 25px; /* Adicione espaço entre a imagem e o conteúdo acima */
+    margin-right: 25px;
     
 }
