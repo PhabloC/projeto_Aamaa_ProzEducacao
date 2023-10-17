@@ -49,6 +49,9 @@ main section figure h1{
     top: 20%;
     left: 36%;
 }
+main{
+    text-align: center;
+}
 main article{
     display: flex;
     flex-direction: row;
