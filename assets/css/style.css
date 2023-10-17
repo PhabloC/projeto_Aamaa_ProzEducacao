@@ -32,12 +32,12 @@ header nav ul li a:hover{
     color: #4dbfd7;
 }
 main section figure {      
-  
+    width: auto;
     height: 25%;  
     position: relative;   
 }
 main section figure img{       
-   
+    height: 40%;
     object-fit: cover;
     position: relative;
 }
@@ -59,8 +59,7 @@ main article{
 }
 .container{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column;   
     text-align: center;
 }
 footer{   
