@@ -12,7 +12,7 @@ header{
     margin-bottom: 3px;   
 }
 header figure img{    
-    width: 55px;    
+    width: 10rem;    
 }
 header nav ul{   
     display: flex;
@@ -54,9 +54,12 @@ main section figure h1{
 footer{
     width: 100%;
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
-    display: flex;    
-    margin: 0;
-    padding: auto;
+    display: flex;         
+    color: #fff;
+    padding: 20px;  
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 12px;
 
 }
 footer ul{
