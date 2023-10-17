@@ -60,8 +60,9 @@ main article{
 .container{
     display: flex;
     flex-direction: column;   
-    text-align: center;
-    margin: 0;
+    
+    -ms-text-justify: auto;
+    margin: 5px;
 }
 footer{   
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
@@ -94,7 +95,7 @@ footer ul li a:hover{
 footer figure img{
     width: 10rem; /* Defina o tamanho desejado para a imagem */
     align-self: flex-start; /* Alinhe a imagem no canto direito */
-    margin-top: 1rem; /* Adicione espaço entre a imagem e o conteúdo acima */
-    margin-right: 1rem;
+    margin-top: 5px; /* Adicione espaço entre a imagem e o conteúdo acima */
+    margin-right: 5px;
     
 }
