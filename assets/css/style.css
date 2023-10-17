@@ -32,12 +32,12 @@ header nav ul li a:hover{
     color: #4dbfd7;
 }
 main section figure {      
-    width: 100%;
+  
     height: 25%;  
     position: relative;   
 }
 main section figure img{       
-    height: 60%; 
+   
     object-fit: cover;
     position: relative;
 }
@@ -51,6 +51,7 @@ main section figure h1{
 }
 main section p{
     text-align: center;
+    margin: 20px;
 }
 main article{
     display: flex;
