@@ -36,8 +36,7 @@ main section figure {
     height: 25%;  
     position: relative;   
 }
-main section figure img{   
-    width: 100%;
+main section figure img{       
     height: 60%; 
     object-fit: cover;
     position: relative;
@@ -51,8 +50,7 @@ main section figure h1{
     left: 36%;
 }
 
-footer{
-    width: 100%;
+footer{   
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
     display: flex;         
     color: #fff;
@@ -69,8 +67,7 @@ footer ul{
 }
 footer ul li a{
     color: #fff;
-    text-decoration: none;
-    display: block; /* Para empilhar os links verticalmente */
+    text-decoration: none;    
     margin-bottom: 10px; /* Adicionar espaço entre os links */
     transition: color 0.3s; /* Transição suave para a mudança de cor */
 }
