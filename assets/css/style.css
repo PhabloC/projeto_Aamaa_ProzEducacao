@@ -4,7 +4,12 @@
 }
 
 header{
-    display: flex;    
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background: #ffff; /* Defina a cor de fundo desejada para o header */
+    padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+    margin-bottom: 3px;   
 }
 header figure img{    
     width: 10rem;    
