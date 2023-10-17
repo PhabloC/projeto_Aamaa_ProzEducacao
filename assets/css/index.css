@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
-
 * {
   margin: 0%;
+  padding: 0%;
   font-family: sans-serif;
 }
+
+/* cabeçalho */
 
 header {
   display: flex;
@@ -11,12 +12,11 @@ header {
   justify-content: space-between;
   background: #ffff; /* Defina a cor de fundo desejada para o header */
   padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
-  margin-bottom: 20px;
-  border: 1px solid;
+  margin-bottom: 3px;
 }
 
 header img {
-  width: 50px; /* Tamanho da imagem */
+  width: 55px; /* Tamanho da imagem */
 }
 
 header nav {
@@ -29,8 +29,195 @@ header a {
   margin-right: 20px; /* Espaço entre os links */
 }
 
+header a:hover {
+  color: #4dbfd7;
+}
+
+/* Estilizando o segundo cabeçalho */
+.segundo-cabecalho {
+  background: linear-gradient(
+    90deg,
+    #002d7d 12.2%,
+    #2759b2 44.02%,
+    #002d7d 77.66%
+  ); /* Cor de fundo do cabeçalho */
+  text-align: left; /* Centraliza o conteúdo */
+  padding: 5px; /* Espaçamento interno */
+  color: #fff; /* Cor do texto */
+  display: flex;
+  align-items: center;
+}
+
+/* Estilizando a imagem no cabeçalho */
+.cabecalho-img {
+  max-width: 30%; /* Largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  vertical-align: middle; /* Alinha verticalmente a imagem */
+}
+
+.nome-associacao {
+  text-align: center; /* Centraliza o conteúdo do nome da associação */
+  margin-left: auto; /* Margem à direita para mover para a direita */
+  margin-right: 300px;
+}
+
+/* Estilizando o nome da associação */
+.nome-associacao h1 {
+  font-size: 50px; /* Tamanho da fonte */
+  margin: 20px 0; /* Espaçamento superior e inferior */
+  color: #ff9800;
+}
+
+.nome-associacao h2 {
+  font-size: 45px; /* Tamanho maior para o h2 */
+  margin: 10px 0; /* Espaçamento superior, à direita, inferior e à esquerda */
+  color: #fff;
+}
+
+/* corpo */
+
+.titulos-principais {
+  color: #0066b3;
+  margin-top: 20px; /* Aumenta a margem superior em 20px */
+  padding-left: 20px; /* Afasta o conteúdo do canto esquerdo em 20px */
+}
+
+.titulos-principais2 {
+  color: #0066b3;
+  text-align: center; /* Alinha o texto ao centro horizontalmente */
+}
+
+.subtitulos {
+  font-size: 16px; /* Tamanho da fonte do parágrafo */
+  line-height: 1.4; /* Espaçamento entre linhas */
+  padding: 20px; /* Afasta o conteúdo de todos os lados em 20px */
+  padding-left: 20px; /* Afasta o conteúdo do canto esquerdo em 20px */
+}
+
+.img-esquerdo {
+  float: left; /* Alinha a imagem à esquerda */
+  margin-top: 40px; /* Aumenta a margem superior em 20px */
+}
+
+.img-direito {
+  float: right; /* Alinha a imagem à direita */
+}
+
+.img-esquerdo2 {
+  float: left; /* Alinha a imagem à esquerda */
+  margin-top: 40px; /* Aumenta a margem superior em 20px */
+}
+
+.img-direito2 {
+  float: right; /* Alinha a imagem à direita */
+  margin-top: 70px;
+}
+
+.caixa-principal {
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  margin: 20px auto 0;
+  width: 830px;
+  height: 331px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 140px; /* Aumenta a margem superior em 20px */
+}
+
+.caixa-rolamento {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bloco-container {
+  width: 23%; /* Largura das caixas contendo os blocos (48% para deixar espaço entre elas) */
+  margin: 0; /* Adiciona um pequeno espaço entre as caixas */
+  margin-top: 20px;
+  padding: 8px; /* Espaçamento interno nas caixas */
+}
+
+.bloco {
+  width: 130px;
+  height: 200px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.25);
+  margin: 0%;
+  padding: 10px;
+  padding-left: 18px; /* Adiciona um padding à esquerda para mover o conteúdo para a direita */
+  padding-right: 30px; /* Adiciona padding à direita */
+  transition: transform 0.3s; /* Adiciona uma transição suave para o efeito de zoom */
+}
+
+.bloco:hover {
+  transform: scale(
+    1.1
+  ); /* Aplica um aumento de 10% no tamanho quando o mouse passa sobre o bloco */
+  z-index: 1; /* Aumenta o índice Z para trazer o bloco à frente de outros elementos */
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.35); /* Adiciona uma sombra mais pronunciada durante o zoom */
+}
+
+.bloco h4 {
+  color: #ff9800;
+  font-size: 13px;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.bloco p {
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 15px;
+  letter-spacing: 1px; /* Adiciona um pequeno espaço entre as letras (ajuste o valor conforme desejado) */
+}
+
+.caixa-principal2 {
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 830px;
+  height: 114px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 200px; /* Aumenta a margem superior em 20px */
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column;
+}
+
+.caixa-principal2 p {
+  color: #ff9800;
+  text-align: center; /* Centraliza o texto do parágrafo horizontalmente */
+  font-size: 16px;
+  margin-bottom: 20px; /* Adiciona espaço entre o parágrafo e o botão */
+}
+
+.caixa-principal2 button {
+  background-color: #0074a9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.caixa-principal2 button:hover {
+  background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+}
+
+/* rodapé */
+
 footer {
-  border: 1px solid #fff;
   background: linear-gradient(
     90deg,
     #002d7d 12.2%,
@@ -54,7 +241,7 @@ footer a {
 }
 
 footer a:hover {
-  background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+  color: #4dbfd7;
 }
 
 footer nav {
