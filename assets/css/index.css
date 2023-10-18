@@ -63,13 +63,13 @@ header a:hover {
 
 /* Estilizando o nome da associação */
 .nome-associacao h1 {
-  font-size: 50px; /* Tamanho da fonte */
+  font-size: 40px; /* Tamanho da fonte */
   margin: 20px 0; /* Espaçamento superior e inferior */
   color: #ff9800;
 }
 
 .nome-associacao h2 {
-  font-size: 45px; /* Tamanho maior para o h2 */
+  font-size: 35px; /* Tamanho maior para o h2 */
   margin: 10px 0; /* Espaçamento superior, à direita, inferior e à esquerda */
   color: #fff;
 }
@@ -92,6 +92,7 @@ header a:hover {
   line-height: 1.4; /* Espaçamento entre linhas */
   padding: 20px; /* Afasta o conteúdo de todos os lados em 20px */
   padding-left: 20px; /* Afasta o conteúdo do canto esquerdo em 20px */
+  text-align: justify;
 }
 
 .img-esquerdo {
@@ -160,7 +161,7 @@ header a:hover {
 
 .bloco h4 {
   color: #ff9800;
-  font-size: 13px;
+  font-size: 12px;
   flex-direction: column;
   text-align: center;
   display: flex;
@@ -170,10 +171,8 @@ header a:hover {
 .bloco p {
   text-align: center;
   font-size: 13px;
-  font-style: normal;
-  line-height: normal;
   margin-top: 15px;
-  letter-spacing: 1px; /* Adiciona um pequeno espaço entre as letras (ajuste o valor conforme desejado) */
+  line-height: 1.5;
 }
 
 .caixa-principal2 {
@@ -207,7 +206,7 @@ header a:hover {
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
 }
 
