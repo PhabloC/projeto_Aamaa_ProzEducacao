@@ -20,6 +20,10 @@ header nav ul{
     list-style: none;
     margin: 2rem;
 }
+header nav ul li{
+    margin: 1px;
+    padding: 1px;
+}
 header nav ul li a{
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
     color: white;
@@ -44,8 +48,8 @@ main section figure img{
 }
 main section h1 { 
     color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
-    font-size: 5rem;
-    margin-top: 10px;
+    font-size: 3rem;
+    margin-top: 5px;
     margin-left: 36%;
     font-weight: 900;
     position: absolute;    
