@@ -12,7 +12,7 @@ header{
     margin-bottom: 3px;   
 }
 header figure img{    
-    width: 8rem;    
+    width: 7rem;    
 }
 header nav ul{   
     display: flex;
@@ -36,13 +36,13 @@ main section figure {
     height: 25%;  
     position: relative;   
 }
-main section figure img{       
-    height: 40%;
-    object-fit: cover;
+main section figure img{  
+    width: 100%;     
+    height: 40%;    
     position: relative;
 }
 main section figure h1{ 
-    color:linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);    
+    color:lightblue    
     position: absolute;
     font-size: 5rem;
     font-weight: 990;
@@ -51,11 +51,16 @@ main section figure h1{
 }
 main section p{
     text-align: center;
-    margin: 20px;
+    padding: 2rem 10rem 2rem;
 }
 main article{
     display: flex;
     flex-direction: row;
+}
+main article figure image{
+    padding: 2rem;
+    margin: 1rem;
+    width: 25rem;
 }
 .container{
     display: flex;
@@ -63,18 +68,26 @@ main article{
     text-align: justify;   
     margin: 1rem;
 }
+.container h1{
+    margin: 2rem;
+    text-align: center;
+}
+.container p{
+    margin: 1rem;
+    padding: 2rem;
+}
 footer{   
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
     display: flex;         
     color: #fff;
-    padding: 20px;  
+    padding: 1rem;  
     justify-content: space-between;
     align-items: flex-start;
     font-size: 12px;
 
 }
 footer ul{
-    margin: 5rem 10rem 5rem;
+    margin: 1rem;
     list-style: none;
     font-size: small;
 }
@@ -92,7 +105,7 @@ footer ul li a:hover{
     color: #4dbfd7;
 }
 footer figure img{
-    width: 8rem; /* Defina o tamanho desejado para a imagem */
+    width: 7rem; /* Defina o tamanho desejado para a imagem */
     align-self: flex-start; /* Alinhe a imagem no canto direito */
     margin-top: 5px; /* Adicione espaço entre a imagem e o conteúdo acima */
     margin-right: 5px;
