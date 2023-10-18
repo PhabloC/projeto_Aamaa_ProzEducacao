@@ -15,9 +15,6 @@ header{
 header figure img{    
     width: 5rem;    
 }
-header nav{
-
-}
 header nav ul{   
     display: flex;
     list-style: none;
@@ -47,12 +44,12 @@ main section figure img{
     position: relative;
 }
 main section figure h1{ 
-    color:lightblue    
-    position: absolute;
+    color: lightblue;
     font-size: 5rem;
+    margin-top: 20%;
+    margin-left: 36%;
     font-weight: 990;
-    top: 20%;
-    left: 36%;
+    position: absolute;    
 }
 main section p{
     text-align: center;
