@@ -58,7 +58,7 @@ main article{
     display: flex;
     flex-direction: row;
 }
-main article figure image{
+main article figure img{
     padding: 2rem;
     margin: 1rem;
     width: 25rem;
@@ -69,7 +69,7 @@ main article figure image{
     text-align: justify;   
     margin: 1rem;
 }
-.container h1{
+.container h2{
     margin: 2rem;
     text-align: center;
 }
