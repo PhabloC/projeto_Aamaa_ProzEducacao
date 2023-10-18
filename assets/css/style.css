@@ -23,7 +23,7 @@ header nav ul{
 header nav ul li a{
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
     color: white;
-    border-radius: 20px 0 0 0 ;
+    border-radius: 0 0 0 20% ;
     padding: 1px;
     margin: 1px;
     text-decoration: none;
@@ -43,11 +43,11 @@ main section figure img{
     position: relative;
 }
 main section h1 { 
-    color: lightblue;
+    color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
     font-size: 5rem;
-    margin-top: 20%;
+    margin-top: 10px;
     margin-left: 36%;
-    font-weight: 990;
+    font-weight: 900;
     position: absolute;    
 }
 main section p{
