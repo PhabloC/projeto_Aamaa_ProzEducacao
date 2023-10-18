@@ -12,7 +12,7 @@ header{
     margin-bottom: 3px;   
 }
 header figure img{    
-    width: 10rem;    
+    width: 8rem;    
 }
 header nav ul{   
     display: flex;
@@ -92,7 +92,7 @@ footer ul li a:hover{
     color: #4dbfd7;
 }
 footer figure img{
-    width: 10rem; /* Defina o tamanho desejado para a imagem */
+    width: 8rem; /* Defina o tamanho desejado para a imagem */
     align-self: flex-start; /* Alinhe a imagem no canto direito */
     margin-top: 5px; /* Adicione espaço entre a imagem e o conteúdo acima */
     margin-right: 5px;
