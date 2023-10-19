@@ -34,7 +34,9 @@
     padding: 40px; /* Espaçamento interno */
     color: #fff; /* Cor do texto */
     display: flex;
-    text-align: center;
+    text-align: left;
+    height: 100px;
+    align-items: center;
    
    }
     
@@ -42,7 +44,7 @@ fieldset{
    padding: 40px; 
    margin: 40px;
    width: 200px;
-   font-size: 30px;
+   font-size: 25px;
 }
 section{
   display: flex;
