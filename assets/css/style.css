@@ -40,21 +40,6 @@ header nav ul li a:hover{
     color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
     background-color: white;
 }
-.inicio{
-    width: 100%;
-    height: 30%;
-    background-color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
-    text-align: left; /* Centraliza o conteúdo */
-    padding: 5px; /* Espaçamento interno */
-    color: #fff; /* Cor do texto */
-    display: flex;
-    align-items: center;
-}
-.entendimento{
-    text-align: center; /* Centraliza o conteúdo do nome da associação */
-    margin-left: auto; /* Margem à direita para mover para a direita */
-    margin-right: 300px;
-}
 main section{
   text-align: justify;  
 }
