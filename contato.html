@@ -24,17 +24,34 @@
 
 <body>
     <div class="segundo-cabecalho">
-        <h2> AAMAA - Associação de Apoio as Mães e Amigos do Autista</h2>
+        <h1>AAMAA</h1>
+        <h2>  - Associação de Apoio as Mães e Amigos do Autista</h2>
     </div>
 <br>
 <div>
-  
     <fieldset>
         <p><strong>Telefone:</strong>11 1234 - 5678</p>
         <p><strong>E-mail:</strong> example@example.com </p>
         <p><strong>Endereço:</strong>Rua Cloud, Nº 4 - São Paulo</p>
         <P><strong>Website:</strong>associacaoaamaa.org.br</P>
     </fieldset>
+
+  <section class="formulario">
+    <h1>Enviar E-mail</h1>
+    <form action="contato.php" autocomplete="off" method="post">
+    
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="inome" required placeholder="Digite seu Nome"> 
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="iemail" required  placeholder="Digite seu E-mail">
+      <label for="assunto">Assunto</label>
+      <input type="text">
+      <label for="msg">Mensagem</label>
+      <textarea placeholder="Digite sua mensagem" name="msg" rows="10" cols="30"></textarea>
+      <button type="submit" value="Enviar"></button>
+    </form>
+  </section>  
+<hr>
 </div>
 <Section>
 <div >
@@ -45,9 +62,7 @@
     
 </div>
 </Section>
-</body>
 <footer>
-  <footer>
     <nav>
       <a href="index.html">Home</a>
       <a href="quemSomos.html">Quem somos</a>
@@ -65,6 +80,5 @@
       <img src="assets/img/logo-semfundo.png" alt="logo-semFundo" />
     </div>
   </footer>
-</footer>
 </body>
 </html>
