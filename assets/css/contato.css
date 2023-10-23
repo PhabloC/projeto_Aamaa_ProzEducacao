@@ -78,7 +78,7 @@ box-shadow: 5px 10px 18px #888888;
 .formulario h2{
   font-size: 2.rem;
   margin: 2rem;
-  color: black;
+ 
 }
 
 .formulario form{
@@ -86,11 +86,13 @@ display: flex;
 flex-direction: column;
 width: 100%;
 }
+
 .formulario form label{
   color: black
-  font-size: 17px;
   margin-bottom: 4px; 
+  font: size 17px;
 }
+
 .formulario form input{
   padding: 15px;
   outline: none;
@@ -99,6 +101,7 @@ width: 100%;
   font-size: 15px;
   transition: all 0.5s;
 }
+
 form textarea{
   padding: 10px;
   outline: none;
@@ -106,15 +109,18 @@ form textarea{
   margin-bottom: 30px;
   transition: all 0.5s; 
 }
+
+
 form button{
   padding: 15px;
   cursor: pointer;
   font-size: 16px;
   background: transparent;
-  border: 2px solid lightgrey
+  border: 2px solid #888888;
+  color: black;
   transition: all 1s; 
   margin-bottom: 20px;
-  color: black;
+
   
 }
 
