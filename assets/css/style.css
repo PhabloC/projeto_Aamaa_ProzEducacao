@@ -43,15 +43,11 @@ header nav ul li a:hover{
 main section{
   text-align: justify;  
 }
-.imagem {     
+.imagem {  
+    background-color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);   
     width: 100%;
     height: 25%;  
     position: relative;   
-}
-main section div figure img{  
-    width: 100%;     
-    height: 40%;  
-    position: relative;  
 }
 .texto { 
     color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
