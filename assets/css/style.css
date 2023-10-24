@@ -1,6 +1,6 @@
 @import url(global.css);
 *{
-    font-family: roboto;
+    font-family: roboto, sans-serif;
 }
 
 header{
@@ -75,8 +75,7 @@ main article figure img{
     width: 25rem;
 }
 .container{
-    display: flex;
-    flex-direction: column; 
+    
     text-align: justify;   
     margin: 1rem;
 }
