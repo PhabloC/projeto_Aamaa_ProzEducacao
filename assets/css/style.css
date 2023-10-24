@@ -46,8 +46,7 @@ main section{
 .imagem {  
     background-color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);   
     width: 100%;
-    height: 25%;  
-    position: relative;   
+    height: 25%;       
 }
 .texto { 
     color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
