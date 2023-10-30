@@ -37,9 +37,6 @@ header nav ul li a{
 header nav ul li a:hover{
     color: #4dbfd7;
 }
-main section{
-  text-align: justify;  
-}
 .imagem {   
     display: flex;  
     justify-content: space-between; 
@@ -48,13 +45,13 @@ main section{
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);  
         
 }
+main section div figure img{
+    max-width: 30%;
+}
 .texto { 
     color: white;
-    font-size: 2rem;
-    margin-top: 25%;
-    margin-left: 25%;
-    font-weight: 700;
-        
+    font-size: 40px;  
+    margin: 20px   
 }
 main section p{
     text-align: justify;
