@@ -22,7 +22,10 @@
     color: black;
     margin-right: 20px; /* Espaço entre os links */
     text-decoration: none;
-
+  
+   }
+   header a:hover {
+    color: #4dbfd7;
    }
    .segundo-cabecalho {
     background: linear-gradient(
@@ -35,7 +38,7 @@
     display: flex;
     height: 100px;
     text-align: center;
-    align-items: center;
+
     
    
    }
@@ -88,9 +91,9 @@ width: 100%;
 }
 
 .formulario form label{
-  color: black
+  color: black;
   margin-bottom: 4px; 
-  font: size 17px;
+  font-size: 17px;
 }
 
 .formulario form input{
