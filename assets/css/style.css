@@ -62,6 +62,7 @@ main article{
     
 }
 main article figure img{
+    max-width: 30%;
     border: black 2px solid;
 }
 .container{
