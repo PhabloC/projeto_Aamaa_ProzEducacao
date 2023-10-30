@@ -19,15 +19,16 @@ header nav{
     padding-right: 200px;
 }
 header nav ul{   
+    
     display: flex;
     list-style: none;
     margin: 2rem;
 }
-header nav ul li{
-    
+header nav ul li{    
     padding: 1px;
 }
-header nav ul li a{   
+header nav ul li a{  
+    color: black; 
     padding: .5rem;
     margin: 1px;
     text-decoration: none;
