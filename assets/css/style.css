@@ -27,8 +27,11 @@ header nav ul li{
     
     padding: 1px;
 }
-header nav ul li a{    
-    text-decoration: none;    
+header nav ul li a{   
+    padding: .5rem;
+    margin: 1px;
+    text-decoration: none;
+    
 }
 header nav ul li a:hover{
     color: #4dbfd7;
