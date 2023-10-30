@@ -44,7 +44,7 @@ main section{
     width: 100%;
     height: 400px;  
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);  
-    position: fixed;      
+    position: absolute;      
 }
 .texto { 
     color: white;
@@ -52,7 +52,7 @@ main section{
     margin-top: 25%;
     margin-left: 25%;
     font-weight: 800;
-    position: absolute;    
+    position: relative;    
 }
 main section p{
     text-align: justify;
