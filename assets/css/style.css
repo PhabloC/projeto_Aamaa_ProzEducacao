@@ -45,9 +45,6 @@ header nav ul li a:hover{
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);  
         
 }
-main section div img{
-    max-width: 30%;
-}
 .texto { 
     color: white;
     font-size: 40px;  
@@ -62,8 +59,7 @@ main article{
     
 }
 .img{
-    max-width: 60%;
-    border: black 2px solid;
+    height: 300px;
 }
 .container{
     
