@@ -1,6 +1,6 @@
 @import url(global.css);
 *{
-    font-family: roboto, sans-serif;
+    font-family: sans-serif;
 }
 
 header{
@@ -27,18 +27,11 @@ header nav ul li{
     
     padding: 1px;
 }
-header nav ul li a{
-    background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
-    color: white;
-    border-radius: 0 0 0 20% ;
-    padding: .5rem;
-    margin: 1px;
-    text-decoration: none;
-    
+header nav ul li a{    
+    text-decoration: none;    
 }
 header nav ul li a:hover{
-    color: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
-    background-color: white;
+    color: #4dbfd7;
 }
 main section{
   text-align: justify;  
