@@ -45,14 +45,20 @@ header nav ul li a:hover{
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);  
         
 }
+
+.TEA {
+    margin: 20px;
+    border-radius: 100px;
+}
 .texto { 
     color: white;
     font-size: 40px;  
-    margin: 20px   
+    margin: 170px   
 }
 main section p{
-    text-align: justify;
+    text-align: center;
     padding: 2rem 20rem 2rem;
+    font-weight: bolder;
 }
 main article{
     display: flex;
@@ -60,6 +66,8 @@ main article{
 }
 .img{
     height: 300px;
+    width: 400px;
+    margin: 20px;
 }
 .container{
     
