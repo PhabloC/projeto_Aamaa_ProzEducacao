@@ -63,9 +63,7 @@ main article{
     
 }
 main article figure img{
-    padding: 2rem;
-    margin: 1rem;
-    width: 25rem;
+    border: black 2px solid;
 }
 .container{
     
