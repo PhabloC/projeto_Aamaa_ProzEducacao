@@ -39,7 +39,7 @@ header nav ul li a:hover{
 }
 .imagem {   
     display: flex;  
-    justify-content: space-between; 
+    justify-content: start; 
     width: 100%;
     height: 400px;  
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);  
@@ -81,6 +81,9 @@ main article{
 .container p{
     margin: 1rem;
     padding: 2rem;
+}
+h2{
+    color: #0066b3;
 }
 footer{   
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
