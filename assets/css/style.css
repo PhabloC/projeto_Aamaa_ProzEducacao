@@ -89,7 +89,7 @@ footer{
     background: linear-gradient(90deg, #002D7D 12.2%, #2759B2 44.02%, #002D7D 77.66%);
     display: flex;         
     color: #fff;
-    padding: 1rem;  
+    padding: 20px;  
     justify-content: space-between;
     align-items: flex-start;
     font-size: 12px;
@@ -114,9 +114,9 @@ footer ul li a:hover{
     color: #4dbfd7;
 }
 footer figure img{
-    width: 7rem; /* Defina o tamanho desejado para a imagem */
+    width: 100px; /* Defina o tamanho desejado para a imagem */
     align-self: flex-start; /* Alinhe a imagem no canto direito */
-    margin-top: 5px; /* Adicione espaço entre a imagem e o conteúdo acima */
-    margin-right: 5px;
+    margin-top: 25px; /* Adicione espaço entre a imagem e o conteúdo acima */
+    margin-right: 25px;
     
 }
