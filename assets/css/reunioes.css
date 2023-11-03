@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 
-/* cabeçalho */
+/*cabecacalho*/
 
 header {
   display: flex;
@@ -33,106 +33,7 @@ header a:hover {
   color: #4dbfd7;
 }
 
-// Segundo Cabeçalho
-
-.segundo-cabecalho {
-  background: linear-gradient(
-    90deg,
-    #002d7d 12.2%,
-    #2759b2 44.02%,
-    #002d7d 77.66%
-  ); /* Cor de fundo do cabeçalho */
-  padding: 40px; /* Espaçamento interno */
-  display: flex;
-  height: 100px;
-  text-align: center;
-}
-.segundo-cabecalho h1 {
-  font-size: 30px; /* Tamanho da fonte */
-  color: #ff9800; /*cor do texto */
-}
-.segundo-cabecalho h2 {
-  font-size: 25px; /* Tamanho maior para o h2 */
-  color: #fff; /*cor do texto*/
-}
-
-fieldset {
-  padding: 40px;
-  margin: 40px;
-  width: 200px;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-fieldset p {
-  padding: 8px;
-}
-
-.formulario {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px 45px;
-  background: #f2f2f7;
-  width: 400px;
-  box-shadow: 5px 10px 18px #888888;
-}
-
-.formulario h2 {
-  font-size: 2rem;
-  margin: 2rem;
-}
-
-.formulario form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.formulario form label {
-  color: black;
-  margin-bottom: 4px;
-  font-size: 17px;
-}
-
-.formulario form input {
-  padding: 15px;
-  outline: none;
-  border: 0;
-  margin-bottom: 20px;
-  font-size: 15px;
-  transition: all 0.5s;
-}
-
-form textarea {
-  padding: 10px;
-  outline: none;
-  border: 0;
-  margin-bottom: 30px;
-  transition: all 0.5s;
-}
-
-form button {
-  padding: 15px;
-  cursor: pointer;
-  font-size: 16px;
-  background: transparent;
-  border: 2px solid #888888;
-  color: black;
-  transition: all 1s;
-  margin-bottom: 20px;
-}
-
-section {
-  display: flex;
-  margin-top: 25px;
-  margin: 30px;
-}
-
-.mapa {
-  width: 800px;
-  height: 300px;
-}
+/*rodape*/
 
 footer {
   background: linear-gradient(
