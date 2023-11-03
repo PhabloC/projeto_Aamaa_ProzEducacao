@@ -4,6 +4,8 @@
   font-family: sans-serif;
 }
 
+/* cabeçalho */
+
 header {
   display: flex;
   align-items: center;
@@ -31,60 +33,7 @@ header a:hover {
   color: #4dbfd7;
 }
 
-//Corpo
-
-.imagem {
-  display: flex;
-  justify-content: start;
-  width: 100%;
-  height: 400px;
-  background: linear-gradient(
-    90deg,
-    #002d7d 12.2%,
-    #2759b2 44.02%,
-    #002d7d 77.66%
-  );
-}
-
-.TEA {
-  margin: 20px;
-  border-radius: 100px;
-}
-.texto {
-  color: white;
-  font-size: 40px;
-  margin: 170px;
-}
-main section p {
-  text-align: center;
-  padding: 2rem 20rem 2rem;
-  font-weight: bolder;
-}
-main article {
-  display: flex;
-}
-.img {
-  height: 300px;
-  width: 400px;
-  margin: 20px;
-}
-.container {
-  text-align: justify;
-  margin: 1rem;
-}
-.container h2 {
-  margin: 2rem;
-  text-align: center;
-}
-.container p {
-  margin: 1rem;
-  padding: 2rem;
-}
-article div h2 {
-  color: #0066b3;
-}
-
-//Rodapé
+// Rodapé
 
 footer {
   background: linear-gradient(
