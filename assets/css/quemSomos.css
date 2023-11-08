@@ -8,12 +8,27 @@
 /* cabeçalho */
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #ffff; /* Defina a cor de fundo desejada para o header */
   padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
-  margin-bottom: 3px;
+  z-index: 999; /* Garante que o cabeçalho esteja na parte superior de outros elementos */
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Altura da linha de separação */
+  background: #ccc;
+  border-top: 0.1px solid black;
 }
 
 header img {
@@ -34,13 +49,24 @@ header a:hover {
   color: #4dbfd7;
 }
 
+header button {
+  left: 20px; /* Posicione o botão no canto esquerdo */
+  top: 10px; /* Ajuste a distância do topo conforme necessário */
+  background-color: #0074a9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+}
+
+/* Estilizando o segundo cabeçalho */
 .segundo-cabecalho {
-  background: linear-gradient(
-    90deg,
-    #002d7d 12.2%,
-    #2759b2 44.02%,
-    #002d7d 77.66%
-  ); /* Cor de fundo do cabeçalho */
   height: 338px;
   flex-shrink: 0;
   color: #fff; /* Cor do texto */
@@ -49,52 +75,53 @@ header a:hover {
 }
 
 /* Estilizando a imagem no cabeçalho */
-.cabecalho-img {
-  max-width: 50%; /* Largura máxima da imagem (ajuste conforme necessário) */
-  height: auto; /* Mantém a proporção da imagem */
+.cabecalho-img img {
+  margin-top: 200px; /* Centraliza a imagem horizontalmente */
+  display: block; /* Remove margens indesejadas */
+  width: 100%; /* Cobrindo toda a largura da tela */
+  max-width: 1000px; /* Largura máxima da imagem (ajuste conforme necessário) */
+  height: 50vh; /* Aumentei a altura para 90% da altura da tela */
+  object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço disponível */
+}
+
+.img-direito {
+  max-width: 100px;
+  margin-top: 150px;
   flex-shrink: 0;
+  float: right; /* Alinha a imagem à direita */
+}
+
+.img-esquerdo {
+  float: left; /* Alinha a imagem à esquerda */
+  margin-top: 155px; /* Aumenta a margem superior em 20px */
 }
 
 .nome-associacao {
-  flex-shrink: 0;
-  text-align: center; /* Centraliza o conteúdo do nome da associação */
-  margin-left: auto; /* Margem à direita para mover para a direita */
-  margin-right: 300px;
+  position: absolute;
+  top: 35%; /* Ajusta a distância do topo conforme necessário */
+  left: 60%; /* Alinha o texto horizontalmente ao centro */
+  padding: 10px;
+  text-align: center;
+  color: #fff;
 }
 
 /* Estilizando o nome da associação */
 .nome-associacao h1 {
   font-size: 30px; /* Tamanho da fonte */
-  margin: 20px 0; /* Espaçamento superior e inferior */
-  color: #ff9800;
-}
-
-.nome-associacao h2 {
-  font-size: 25px; /* Tamanho maior para o h2 */
-  margin: 10px 0; /* Espaçamento superior, à direita, inferior e à esquerda */
-  color: #fff;
-}
-
-.nome-associacao button {
-  margin-top: 45px;
-  background-color: #0074a9;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-.nome-associacao button:hover {
-  background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
+  text-align: center; /* Alinha o texto à esquerda */
+  color: #f48fb1;
 }
 
 /* corpo */
 
+.img-laterais {
+  margin-bottom: 300px;
+}
+
 .titulos-principais {
   color: #0066b3;
-  margin-top: 25px; /* Aumenta a margem superior em 20px */
+  margin-top: 80px; /* Aumenta a margem superior em 20px */
   padding-left: 50px; /* Afasta o conteúdo do canto esquerdo em 20px */
   margin-bottom: 15px;
 }
@@ -115,6 +142,7 @@ header a:hover {
   padding-left: 35px; /* Afasta o conteúdo do canto esquerdo em 20px */
   padding-left: 65px;
   text-align: justify;
+  margin-bottom: 50px;
 }
 
 .bloco-container {
