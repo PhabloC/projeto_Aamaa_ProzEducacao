@@ -65,41 +65,54 @@ header button:hover {
   background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
 }
 
+.corpo {
+  background-color: white;
+}
+
+.sub-corpo h3 {
+}
+
 /* Estilizando o segundo cabeçalho */
 .segundo-cabecalho {
-  height: 338px;
+  height: 80vh; /* Altura da tela inteira */
   flex-shrink: 0;
-  color: #fff; /* Cor do texto */
-  display: flex; /* Usando flex para organizar os elementos em linha */
-  align-items: center; /* Centralizar verticalmente os elementos */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza vertical e horizontalmente */
+  margin-bottom: 150px;
+  top: 100px; /* Ajuste o espaçamento superior conforme necessário */
 }
 
 /* Estilizando a imagem no cabeçalho */
 .cabecalho-img img {
-  margin-top: 200px; /* Centraliza a imagem horizontalmente */
-  display: block; /* Remove margens indesejadas */
-  width: 100%; /* Cobrindo toda a largura da tela */
-  max-width: 1000px; /* Largura máxima da imagem (ajuste conforme necessário) */
-  height: 50vh; /* Aumentei a altura para 90% da altura da tela */
-  object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço disponível */
+  position: fixed;
+  top: 0; /* Remova a margem superior */
+  left: 0;
+  display: block;
+  width: 100%; /* Largura da tela inteira */
+  height: 90vh; /* Altura da tela inteira */
+  object-fit: cover;
+  z-index: -1; /* Certifica-se de que a imagem fique atrás do conteúdo */
+  pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
 }
 
 .img-direito {
   max-width: 100px;
-  margin-top: 150px;
+  margin-top: 5px;
   flex-shrink: 0;
   float: right; /* Alinha a imagem à direita */
 }
 
 .img-esquerdo {
   float: left; /* Alinha a imagem à esquerda */
-  margin-top: 155px; /* Aumenta a margem superior em 20px */
+  margin-top: 20px; /* Aumenta a margem superior em 20px */
 }
 
 .nome-associacao {
   position: absolute;
-  top: 35%; /* Ajusta a distância do topo conforme necessário */
-  left: 60%; /* Alinha o texto horizontalmente ao centro */
+  top: 40%; /* Ajusta a distância do topo conforme necessário */
+  left: 28%; /* Alinha o texto horizontalmente ao centro */
   padding: 10px;
   text-align: center;
   color: #fff;
@@ -107,23 +120,25 @@ header button:hover {
 
 /* Estilizando o nome da associação */
 .nome-associacao h1 {
-  font-size: 30px; /* Tamanho da fonte */
+  font-size: 45px; /* Tamanho da fonte */
   margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
   text-align: center; /* Alinha o texto à esquerda */
-  color: #f48fb1;
+  color: #ffff;
+  margin-bottom: 100px;
 }
 
 /* corpo */
 
 .img-laterais {
-  margin-bottom: 300px;
+  margin-bottom: 20px;
 }
 
 .titulos-principais {
   color: #0066b3;
-  margin-top: 80px; /* Aumenta a margem superior em 20px */
+  /* margin-top: 5px; */ /* Aumenta a margem superior em 20px */
   padding-left: 50px; /* Afasta o conteúdo do canto esquerdo em 20px */
   margin-bottom: 15px;
+  padding-top: 80px;
 }
 
 .subtitulos {
@@ -152,7 +167,7 @@ header button:hover {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; /* Faz com que os blocos envolvam para a próxima linha quando não houver espaço suficiente */
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .bloco {
