@@ -82,6 +82,7 @@ header button:hover {
 /* Estilizando a imagem no cabeçalho */
 .cabecalho-img {
   margin-top: 80px;
+  margin-left: 50px;
   max-width: 30%; /* Largura máxima da imagem */
   height: auto; /* Mantém a proporção da imagem */
   vertical-align: middle; /* Alinha verticalmente a imagem */
