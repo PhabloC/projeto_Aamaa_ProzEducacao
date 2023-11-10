@@ -62,9 +62,39 @@ header button:hover {
   background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
 }
 
-//Corpo
+/* corpo
+ */
+.corpo {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
 
-.imagem {
+.segundo-cabecalho {
+  height: 80vh; /* Altura da tela inteira */
+  flex-shrink: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza vertical e horizontalmente */
+  margin-bottom: 150px;
+  top: 100px; /* Ajuste o espaçamento superior conforme necessário */
+}
+
+/* Estilizando a imagem no cabeçalho */
+.cabecalho-video video {
+  position: fixed;
+  top: 0; /* Remova a margem superior */
+  left: 0;
+  display: block;
+  width: 100%; /* Largura da tela inteira */
+  height: 90vh; /* Altura da tela inteira */
+  object-fit: cover;
+  z-index: -1000; /* Certifica-se de que a imagem fique atrás do conteúdo */
+  pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
+}
+
+/* .imagem {
   display: flex;
   justify-content: start;
   width: 100%;
@@ -75,9 +105,9 @@ header button:hover {
     #2759b2 44.02%,
     #002d7d 77.66%
   );
-}
+} */
 
-.TEA {
+/* .TEA {
   margin: 20px;
   border-radius: 100px;
 }
@@ -113,9 +143,9 @@ main article {
 }
 article div h2 {
   color: #0066b3;
-}
+} */
 
-//Rodapé
+/* Rodapé */
 
 footer {
   background: linear-gradient(
