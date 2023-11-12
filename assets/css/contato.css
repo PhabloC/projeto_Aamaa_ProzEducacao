@@ -67,30 +67,53 @@ header button:hover {
 }
 
 .segundo-cabecalho {
-  background: linear-gradient(
-    90deg,
-    #002d7d 12.2%,
-    #2759b2 44.02%,
-    #002d7d 77.66%
-  );
-  padding: 40px; /* Espaçamento interno */
+  height: 70vh; /* Altura da tela inteira */
+  flex-shrink: 0;
+  color: #fff;
   display: flex;
-  height: 100px;
-  text-align: center;
-}
-.segundo-cabecalho h1 {
-  font-size: 30px; /* Tamanho da fonte */
-  color: #ff9800; /*cor do texto */
-}
-.segundo-cabecalho h2 {
-  font-size: 25px; /* Tamanho maior para o h2 */
-  color: #fff; /*cor do texto*/
+  align-items: center;
+  justify-content: center; /* Centraliza vertical e horizontalmente */
+  margin-bottom: 150px;
+  top: 100px; /* Ajuste o espaçamento superior conforme necessário */
+  
 }
 
+
+/* Estilizando a imagem no cabeçalho */
+.cabecalho-img img {
+  position: fixed;
+  top: 0; /* Remova a margem superior */
+  left: 0;
+  display: block;
+  width: 100%; /* Largura da tela inteira */
+  height: 80vh; /* Altura da tela inteira */
+  object-fit: cover;
+  z-index: -1; /* Certifica-se de que a imagem fique atrás do conteúdo */
+ /* pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
+}
+
+/* Estilizando o nome da associação */
+.nome-associacao h1 {
+  font-size: 45px; /* Tamanho da fonte */
+  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
+  text-align:center; /* Alinha o texto à esquerda */
+  color: #ffff;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.nome-associacao h2 {
+  font-size: 40px; /* Tamanho da fonte */
+  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
+  text-align: center; /* Alinha o texto à esquerda */
+  color: #ffff;
+  margin-bottom: 5px;
+}
 fieldset {
   padding: 40px;
   margin: 40px;
-  width: 200px;
+  width: 400px;
+  height: 350px;
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -160,11 +183,12 @@ section {
   margin: 30px;
 }
 
-.mapa {
-  width: 800px;
-  height: 300px;
-}
 
+.mapa {
+width:100%;
+height: 60vh; /* Altura da tela inteira */
+
+}
 footer {
   background: linear-gradient(
     90deg,
