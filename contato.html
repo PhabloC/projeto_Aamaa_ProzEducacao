@@ -1,91 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/contato.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/contato.css" />
     <title>AAMAA</title>
-</head>
-<header>
-  <img src="assets/img/logo-branco.jpeg" alt="logo-branco" />
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="quemSomos.html">Quem somos</a>
-    <a href="informacoes.html">Informações</a>
-    <a href="profissionais.html">Profissionais</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-  <a href="contato.html"><button>QUERO APOIAR</button></a>
-</header>
-
-<body>
-  <div class="segundo-cabecalho">
-    <div class="cabecalho-img">
-      <img src="assets/img/quebracabeca-coracao.webp" alt="img-autismo" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/logo-branco.jpeg" alt="logo-branco" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="quemSomos.html">Quem somos</a>
+        <a href="informacoes.html">Informações</a>
+        <a href="profissionais.html">Profissionais</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <a href="contato.html"><button>QUERO APOIAR</button></a>
+    </header>
+    <div class="corpo">
+      <div class="segundo-cabecalho">
+        <div class="cabecalho-img">
+          <img src="assets/img/quebracabeca-coracao.webp" alt="img-autismo" />
+        </div>
+        <div class="nome-associacao">
+          <h1>AAMAA</h1>
+          <h2>Associação de Apoio a Mães</h2>
+          <h2>e Amigos de Autistas</h2>
+        </div>
+      </div>
+      <div></div>
+      <section>
+        <div class="cartao">
+          <h2>Telefone:</h2>
+          <p>11 1234 - 5678</p>
+          <h2>E-mail:</h2>
+          <p>contato@aamaa.org</p>
+          <h2>Endereço:</h2>
+          <p>Rua Cloud, Nº 4 - São Paulo</p>
+          <h2>Website:</h2>
+          <p>associacaoaamaa.org.br</p>
+        </div>
+        <div class="cartao">
+          <h1>Enviar E-mail</h1>
+          <form action="contato.php" autocomplete="off" method="post">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              name="nome"
+              id="inome"
+              required
+              placeholder="Digite seu Nome"
+            />
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              name="email"
+              id="iemail"
+              required
+              placeholder="Digite seu E-mail"
+            />
+            <label for="assunto">Assunto</label>
+            <input type="text" name="assunto" id="iassunto" />
+            <label for="msg">Mensagem</label>
+            <textarea
+              placeholder="Digite sua mensagem"
+              name="msg"
+              rows="10"
+              cols="30"
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <aside>
+        <div class="mapBox">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.957339260185!2d-46.699821425340495!3d-23.607459863286103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56db330e8ea3%3A0xfdb06d3f49823ad4!2sAv.%20das%20Na%C3%A7%C3%B5es%20Unidas%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e1!3m2!1spt-PT!2spt!4v1699893916519!5m2!1spt-PT!2spt"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </aside>
     </div>
-    <div class="nome-associacao">
-      <h1>AAMAA</h1>
-      <h2>Associação de Apoio a Mães</h2>
-      <h2>e Amigos de Autistas</h2>
-    </div>
-  </div>
-  <br>
-  <section>
-    <div  class="cartao">
-     
-      <h2>Telefone:</h2>
-      <p>11 1234 - 5678</p>
-      <h2>E-mail:</h2>
-      <p>contato@aamaa.org</p>
-      <h2>Endereço:</h2>
-      <p>Rua Cloud, Nº 4 - São Paulo</p>
-       <h2>Website:</h2>
-       <p>associacaoaamaa.org.br</P>
-     
-   </div>
-
-      <div  class="cartao">
-        <h1>Enviar E-mail</h1>
-        <form action="contato.php" autocomplete="off" method="post">
-    
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" id="inome" required placeholder="Digite seu Nome"> 
-          <label for="email">E-mail:</label>
-          <input type="email" name="email" id="iemail" required  placeholder="Digite seu E-mail">
-          <label for="assunto">Assunto</label>
-          <input type="text">
-          <label for="msg">Mensagem</label>
-          <textarea placeholder="Digite sua mensagem" name="msg" rows="10" cols="30"></textarea>
-          <button type="submit">Enviar</button>
-        </form>
-     </div> 
-
-  </section>
-   <aside>
-  <div class="mapBox">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.957339260185!2d-46.699821425340495!3d-23.607459863286103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56db330e8ea3%3A0xfdb06d3f49823ad4!2sAv.%20das%20Na%C3%A7%C3%B5es%20Unidas%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e1!3m2!1spt-PT!2spt!4v1699893916519!5m2!1spt-PT!2spt"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </aside>
-  </div>
-   
-     
-    
-   
-<footer>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="quemSomos.html">Quem somos</a>
-    <a href="informacoes.html">Informações</a>
-    <a href="profissionais.html">Profissionais</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-  <div>
-    <p>©2023 Autismo e Realidade. <br />Todos os direitos reservados</p>
-    <p>Rua Cloud - nº 04 - São Paulo - SP</p>
-    <p>Nome da equipe e integrantes - Equipe Talento Cloud 04</p>
-  </div>
-  <div>
-    <img src="assets/img/logo-semfundo.png" alt="logo-semFundo" />
-  </div>
-</footer>
-</body>
+    <footer>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="quemSomos.html">Quem somos</a>
+        <a href="informacoes.html">Informações</a>
+        <a href="profissionais.html">Profissionais</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div>
+        <p>©2023 Autismo e Realidade. <br />Todos os direitos reservados</p>
+        <p>Rua Cloud - nº 04 - São Paulo - SP</p>
+        <p>Nome da equipe e integrantes - Equipe Talento Cloud 04</p>
+      </div>
+      <div>
+        <img src="assets/img/logo-semfundo.png" alt="logo-semFundo" />
+      </div>
+    </footer>
+  </body>
 </html>
