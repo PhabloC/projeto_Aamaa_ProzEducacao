@@ -145,7 +145,7 @@ header button:hover {
   line-height: 1.4; /* Espaçamento entre linhas */
   padding: 5px; /* Afasta o conteúdo de todos os lados em 20px */
   padding-left: 50px; /* Afasta o conteúdo do canto esquerdo em 20px */
-  padding-right: 50px;
+  padding-right: 250px;
   text-align: justify;
 }
 
