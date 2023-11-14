@@ -112,18 +112,14 @@ header button:hover {
   margin-bottom: 5px;
 }
 
+main{
+  background-color: #fff;
+  
+}
 section {
-  display: flex;
-}
+display: flex;
 
-section div {
-  margin-top: 10px;
-  margin: 50px;
-  display: flex;
-}
 
-.cartao {
-  margin-right: 12px;
 }
 
 .cartao {
@@ -133,10 +129,18 @@ section div {
   flex-direction: column;
   padding: 10px 45px;
   background: #f2f2f7;
-  width: 300px;
   box-shadow: 5px 10px 18px #888888;
+  border-radius: 8px;
+  width: 300px;
+ /* margin: auto;*/
+
 }
 
+section div {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+}
 .cartao h2 {
   font-size: 1.5rem;
   margin: 2rem;
@@ -145,7 +149,7 @@ section div {
 .cartao form {
   display: flex;
   flex-direction: column;
-  width: 100%;
+
 }
 
 .cartao form label {
@@ -182,17 +186,16 @@ form button {
   margin-bottom: 20px;
 }
 aside {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 20vh;
   background-color: rgb(23, 160, 96);
+ 
 }
 .mapBox {
-  position: relative;
-  height: 500px;
-  width: 100%; /* Largura da tela inteira */
-  width: 200px;
+
+  height: 400px;
+  width: 500%; /* Largura da tela inteira */
+
+
 }
 footer {
   background: linear-gradient(
