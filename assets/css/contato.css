@@ -16,7 +16,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #ffff; /* Defina a cor de fundo desejada para o header */
+  background: rgb(177, 231, 177); /* Defina a cor de fundo desejada para o header */
   padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
   z-index: 999; /* Garante que o cabeçalho esteja na parte superior de outros elementos */
 }
@@ -66,9 +66,13 @@ header button:hover {
   background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
 }
 
-/* .corpo {
-  background-color: white;
-} */
+ 
+/* Estilizando o segundo cabeçalho */
+
+
+html, body {
+  overflow-x: hidden;
+}
 
 .segundo-cabecalho {
   height: 80vh; /* Altura da tela inteira */
@@ -81,6 +85,7 @@ header button:hover {
   top: 100px; /* Ajuste o espaçamento superior conforme necessário */
 }
 
+
 /* Estilizando a imagem no cabeçalho */
 .cabecalho-img img {
   position: fixed;
@@ -90,8 +95,17 @@ header button:hover {
   width: 100%; /* Largura da tela inteira */
   height: 90vh; /* Altura da tela inteira */
   object-fit: cover;
-  z-index: -1000; /* Certifica-se de que a imagem fique atrás do conteúdo */
+  z-index: -1; /* Certifica-se de que a imagem fique atrás do conteúdo */
   pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
+}
+
+.nome-associacao {
+  position: absolute;
+  top: 40%; /* Ajusta a distância do topo conforme necessário */
+  left: 32%; /* Alinha o texto horizontalmente ao centro */
+  padding: 10px;
+  text-align: center;
+  color: #fff;
 }
 
 /* Estilizando o nome da associação */
@@ -101,7 +115,6 @@ header button:hover {
   text-align: center; /* Alinha o texto à esquerda */
   color: #ffff;
   margin-bottom: 8px;
-  margin-top: 10px;
 }
 
 .nome-associacao h2 {
@@ -114,12 +127,10 @@ header button:hover {
 
 main{
   background-color: #fff;
-  
 }
+
 section {
 display: flex;
-
-
 }
 
 .cartao {
@@ -132,7 +143,7 @@ display: flex;
   box-shadow: 5px 10px 18px #888888;
   border-radius: 8px;
   width: 300px;
- /* margin: auto;*/
+  margin: auto;
 
 }
 
@@ -187,7 +198,7 @@ form button {
 }
 aside {
   justify-content: center;
-  background-color: rgb(23, 160, 96);
+  background-color: rgb(236, 247, 241);
  
 }
 .mapBox {
