@@ -16,7 +16,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(177, 231, 177); /* Defina a cor de fundo desejada para o header */
+  background: rgb(222, 243, 222); /* Defina a cor de fundo desejada para o header */
   padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
   z-index: 999; /* Garante que o cabeçalho esteja na parte superior de outros elementos */
 }
@@ -131,46 +131,27 @@ main{
 
 section {
 display: flex;
-}
-
-.cartao {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px 45px;
-  background: #f2f2f7;
-  box-shadow: 5px 10px 18px #888888;
-  border-radius: 8px;
-  width: 300px;
-  margin: auto;
 
 }
-
-section div {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  
-}
-.cartao h2 {
+.container h2 {
   font-size: 1.5rem;
   margin: 2rem;
 }
 
-.cartao form {
+.container form {
   display: flex;
   flex-direction: column;
 
 }
 
-.cartao form label {
+.container form label {
   color: black;
   margin-bottom: 4px;
   font-size: 17px;
 }
 
-.cartao form input {
-  padding: 15px;
+.container form input {
+  padding: 9px;
   outline: none;
   border: 0;
   margin-bottom: 20px;
@@ -182,7 +163,7 @@ form textarea {
   padding: 10px;
   outline: none;
   border: 0;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   transition: all 0.5s;
 }
 
@@ -196,17 +177,30 @@ form button {
   transition: all 1s;
   margin-bottom: 20px;
 }
-aside {
+
+.container {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: rgb(236, 247, 241);
- 
+  flex-direction: column;
+  padding: 10px 45px;
+  background: #f2f2f7;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 180px;
+  margin-right: 150px;
+  width: 300px;
+  
 }
-.mapBox {
 
-  height: 400px;
-  width: 500%; /* Largura da tela inteira */
-
-
+aside {
+  background-color: rgb(236, 247, 241);
+}
+ .mapBox {
+  width: 100;
+  height: 300px;
 }
 footer {
   background: linear-gradient(
