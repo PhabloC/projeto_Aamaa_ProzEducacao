@@ -16,7 +16,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(222, 243, 222); /* Defina a cor de fundo desejada para o header */
+  background: rgb(
+    222,
+    243,
+    222
+  ); /* Defina a cor de fundo desejada para o header */
   padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
   z-index: 999; /* Garante que o cabeçalho esteja na parte superior de outros elementos */
 }
@@ -66,11 +70,10 @@ header button:hover {
   background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
 }
 
- 
 /* Estilizando o segundo cabeçalho */
 
-
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -84,7 +87,6 @@ html, body {
   margin-bottom: 150px;
   top: 100px; /* Ajuste o espaçamento superior conforme necessário */
 }
-
 
 /* Estilizando a imagem no cabeçalho */
 .cabecalho-img img {
@@ -125,13 +127,12 @@ html, body {
   margin-bottom: 5px;
 }
 
-main{
+main {
   background-color: #fff;
 }
 
 section {
-display: flex;
-
+  display: flex;
 }
 .container h2 {
   font-size: 1.5rem;
@@ -141,7 +142,6 @@ display: flex;
 .container form {
   display: flex;
   flex-direction: column;
-
 }
 
 .container form label {
@@ -192,16 +192,17 @@ form button {
   margin-left: 180px;
   margin-right: 150px;
   width: 300px;
-  
 }
 
 aside {
   background-color: rgb(236, 247, 241);
 }
- .mapBox {
-  width: 100;
+
+.mapBox {
+  width: 100%;
   height: 300px;
 }
+
 footer {
   background: linear-gradient(
     90deg,
