@@ -9,6 +9,22 @@
     <link rel="icon" href="assets/img/favicon.png" type="favicon" />
   </head>
   <body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="libras.js"></script>
+    <script>
+      new window.VLibras.Widget({
+        rootPah: "/app",
+        personalization: "https://vlibras.gov.br/config/default_logo.json",
+        opacity: 0.5,
+        position: "R",
+        avatar: "random",
+      });
+    </script>
     <script src="quemSomos.js"></script>
     <header>
       <img src="assets/img/logo-branco.jpeg" alt="logo-branco" />
