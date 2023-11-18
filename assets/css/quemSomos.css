@@ -1,5 +1,7 @@
 .corpo {
   background-color: white;
+  min-height: 100vh; /* Altere para min-height para ocupar pelo menos a altura total da tela */
+  overflow-x: hidden; /* Oculta a barra de rolagem horizontal se houver */
 }
 
 /* Estilizando o segundo cabeçalho */
