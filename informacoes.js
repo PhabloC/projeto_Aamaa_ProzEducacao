@@ -55,7 +55,7 @@ for(let i = 0; i < arryQuestions.length; i++){
       <p>${arryQuestions[i].answer}</p>
     </div>
   </div>
-  
+
   `
 
   //Adicionar o elemento a página
@@ -63,3 +63,10 @@ for(let i = 0; i < arryQuestions.length; i++){
   section.appendChild(div);
 
 }
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach((faq) => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("active");
+  });
+});
