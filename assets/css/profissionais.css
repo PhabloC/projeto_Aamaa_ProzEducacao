@@ -54,26 +54,7 @@ section {
     justify-content: center;
     background-color: #f2f2f7;
 }
-  
-.img-esquerdo {
-    float: left; /* Alinha a imagem à esquerda */
-    margin-top: 40px; /* Aumenta a margem superior em 20px */
-}
-  
-.img-direito {
-    float: right; /* Alinha a imagem à direita */
-}
-  
-.img-esquerdo2 {
-    float: left; /* Alinha a imagem à esquerda */
-    margin-top: 40px; /* Aumenta a margem superior em 20px */
-}
-  
-.img-direito2 {
-    float: right; /* Alinha a imagem à direita */
-    margin-top: 70px;
-}
-  
+
   
 .container h2 {
     font-size: 1.5rem;
