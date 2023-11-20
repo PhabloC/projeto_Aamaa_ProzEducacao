@@ -2,11 +2,12 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AAMAA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
     <link rel="stylesheet" href="assets/css/profissionais.css" />
     <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="icon" href="assets/img/favicon.png" type="favicon" />
+    
+    <title>AAMAA</title>
   </head>
   <body>
     <div vw class="enabled">
@@ -43,28 +44,32 @@
       <img src="assets/img/profissionais.jpeg" alt="img-cabecalho" />
     </div>
     <hr />
-    <h2>
-      A AAMAA conta com uma gama de profissionais que apoiam a nossa causa e
-      estão disponíveis para auxiliar você!
-    </h2>
-    <p>
-      Para receber ajuda de um profissional de saúde mais próximo de você,
-      preencha o formulário abaixo que entraremos em contato.
-    </p>
-    <form method="get" action="envio_dados.php">
+    <div class="container">
+      <h2>
+        A AAMAA conta com uma gama de profissionais que apoiam a nossa causa e
+        estão disponíveis para auxiliar você!
+      </h2>
       <p>
-        <input type="text" name="nome" placeholder="Digite seu nome" />
+        Para receber ajuda de um profissional de saúde mais próximo de você,
+        preencha o formulário abaixo que entraremos em contato.
       </p>
-      <p>
-        <input type="email" name="email" placeholder="Digite seu e-mail" />
-      </p>
-      <p>
-        <input type="text" name="numero" placeholder="Digite seu telefone" />
-      </p>
-      <input type="submit" name="enviar" value="Enviar" />
-    </form>
+      
+      <form method="get" action="envio_dados.php">
+        <p>
+          <input type="text" name="nome" placeholder="Digite seu nome" />
+        </p>
+        <p>
+          <input type="email" name="email" placeholder="Digite seu e-mail" />
+        </p>
+        <p>
+          <input type="text" name="numero" placeholder="Digite seu telefone" />
+        </p>
+        <input type="submit" name="enviar" value="Enviar" />
+      </form>
+  </div>
     <br />
     <hr />
+  <div class="container">
     <h2>
       Se você é um profissional da saúde e deseja participar de alguma forma da
       AAMAA, preencha o formulário abaixo que entraremos em contato.
@@ -81,6 +86,7 @@
       </p>
       <input type="submit" name="enviar" value="Enviar" />
     </form>
+  </div>
     <br />
     <footer>
       <nav>

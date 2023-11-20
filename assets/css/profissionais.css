@@ -1,3 +1,63 @@
 
 
 
+
+
+
+
+
+.container h2 {
+    font-size: 1.5rem;
+    margin: 2rem;
+  }
+  
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container form label {
+    color: black;
+    margin-bottom: 4px;
+    font-size: 17px;
+  }
+  
+  .container form input {
+    padding: 9px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #888888;
+    color: black;
+    transition: all 1s;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #f2f2f7;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    margin-right: 150px;
+    width: 300px;
+  }
+  
+  
+
+
