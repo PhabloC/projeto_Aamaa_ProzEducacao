@@ -43,7 +43,7 @@ for(let i = 0; i < arryQuestions.length; i++){
   //manipular um elemento 
 
   div.innerHTML = `
-  
+  <div class="faq">
     <div class="question${i + 1}">
       <h3>${arryQuestions[i].question}</h3>
                   
@@ -54,6 +54,7 @@ for(let i = 0; i < arryQuestions.length; i++){
     <div class="answer">
       <p>${arryQuestions[i].answer}</p>
     </div>
+  </div>
   
   `
 
