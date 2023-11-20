@@ -49,6 +49,9 @@ body {
     color: #ffff;
     margin-bottom: 5px;
   }
+  section {
+    display: flex;
+  }
   
 .container h2 {
     font-size: 1.5rem;
