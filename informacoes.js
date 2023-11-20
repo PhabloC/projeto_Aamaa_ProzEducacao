@@ -33,26 +33,32 @@ const arryQuestions = [
 
 ]
 
-//criar um elemento 
-let article = document.createElement("article");
 
-//manipular um elemento 
 
-article.innerHTML = `
-<div class="faq">
-  <div class="question1">
-    <h3>O que é o transtorno do Espectro Autista (TEA) ?</h3>
-                
-    <svg width="15" height="10" viewBox="0 0 42 25">
-      <path d="M3 3L21 21L39 3 " stroke="white" stroke-width="7" stroke-linecap="round"/></path>
-    </svg>
-  </div>
-  <div class="answer">
-    <p>É uma condição neuropsiquiátrica que afeta o desenvolvimento cerebral e impacta a maneira como uma pessoa se comunica, interage socialmente e apresenta comportamentos. O TEA é caracterizado por uma ampla variedade de sintomas e níveis de gravidade, resultando em uma "espectro" de manifestações.</p>
-  </div>
-</div>
-`
-console.log(article);
-//Adicionar o elemento a página
-let section = document.querySelector("section");
-section.appendChild(article);
+for(let i = 0; i < arryQuestions.length; i++){
+  
+  //criar um elemento 
+  let div = document.createElement("div");
+
+  //manipular um elemento 
+
+  div.innerHTML = `
+  
+    
+      <h3>${arryQuestions[i].question}</h3>
+                  
+      <svg width="15" height="10" viewBox="0 0 42 25">
+        <path d="M3 3L21 21L39 3 " stroke="white" stroke-width="7" stroke-linecap="round"/></path>
+      </svg>
+    
+    <div class="answer">
+      <p>${arryQuestions[i].answer}</p>
+    </div>
+
+    `
+    div.class = `question${i + 1}`
+  //Adicionar o elemento a página
+  let section = document.querySelector("section");
+  section.appendChild(article);
+
+}
