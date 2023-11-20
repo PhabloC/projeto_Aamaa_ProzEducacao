@@ -38,25 +38,25 @@ const arryQuestions = [
 for(let i = 0; i < arryQuestions.length; i++){
   
   //criar um elemento 
-  let div = document.createElement("div");
+  let article = document.createElement("article");
 
   //manipular um elemento 
 
-  div.innerHTML = `
-  
-    
+  article.innerHTML = `
+  <div class="faq">
+    <div class="question${i + 1}">
       <h3>${arryQuestions[i].question}</h3>
                   
       <svg width="15" height="10" viewBox="0 0 42 25">
         <path d="M3 3L21 21L39 3 " stroke="white" stroke-width="7" stroke-linecap="round"/></path>
       </svg>
-    
+    </div>
     <div class="answer">
       <p>${arryQuestions[i].answer}</p>
     </div>
+  </div>
+  `
 
-    `
-    div.class = `question${i + 1}`
   //Adicionar o elemento a página
   let section = document.querySelector("section");
   section.appendChild(article);
