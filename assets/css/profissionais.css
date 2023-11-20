@@ -52,6 +52,7 @@ body {
   section {
     display: flex;
     justify-content: center;
+    color: #f2f2f7;
   }
   
 .container h2 {
