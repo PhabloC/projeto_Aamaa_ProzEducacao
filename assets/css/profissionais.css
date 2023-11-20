@@ -46,7 +46,7 @@ body {
     font-size: 40px; /* Tamanho da fonte */
     margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
     text-align: center; /* Alinha o texto à esquerda */
-    color: #fff;
+    color: black;
     margin-bottom: 5px;
   }
   section {
@@ -62,10 +62,11 @@ body {
   .container form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
   }
   
   .container form label {
-    color: black;
+    color: #f2f2f7;
     margin-bottom: 4px;
     font-size: 17px;
   }
@@ -85,7 +86,7 @@ body {
     font-size: 16px;
     background: transparent;
     border: 2px solid #888888;
-    color: black;
+    color: #f2f2f7;
     transition: all 1s;
     margin-bottom: 20px;
   }
@@ -96,7 +97,13 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    background: #f2f2f7;
+    background: linear-gradient(
+    90deg,
+    #002d7d 12.2%,
+    #2759b2 44.02%,
+    #002d7d 77.66%
+    );
+    color: #f2f2f7;
     box-shadow: 5px 10px 18px #888888;
     border-radius: 8px;
     margin-top: 30px;
