@@ -54,4 +54,4 @@ article.innerHTML = `
 `
 //Adicionar o elemento a página
 let section = document.querySelector("section");
-section.appendChild
+section.appendChild(article);
