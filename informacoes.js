@@ -38,7 +38,7 @@ const arryQuestions = [
 for(let i = 0; i < arryQuestions.length; i++){
   
   //criar um elemento 
-  let article = document.createElement("div");
+  let div = document.createElement("div");
 
   //manipular um elemento 
 
