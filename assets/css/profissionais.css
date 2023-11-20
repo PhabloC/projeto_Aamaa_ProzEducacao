@@ -46,7 +46,7 @@ body {
     font-size: 40px; /* Tamanho da fonte */
     margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
     text-align: center; /* Alinha o texto à esquerda */
-    color: linear-gradient(
+    background-color: linear-gradient(
         90deg,
         #002d7d 12.2%,
         #2759b2 44.02%,
@@ -55,6 +55,7 @@ body {
   }
   section {
     display: flex;
+    justify-content: center;
   }
   
 .container h2 {
@@ -106,7 +107,7 @@ body {
     margin-bottom: 30px;
     margin-left: 180px;
     margin-right: 150px;
-    width: 300px;
+    width: 500px;
   }
   
   
