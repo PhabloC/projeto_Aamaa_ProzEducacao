@@ -63,10 +63,3 @@ for(let i = 0; i < arryQuestions.length; i++){
   section.appendChild(div);
 
 }
-const faqs = document.querySelectorAll(".faq");
-
-faqs.forEach((faq) => {
-  faq.addEventListener("click", () => {
-    faq.classList.toggle("active");
-  });
-});
