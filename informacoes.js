@@ -1,4 +1,10 @@
+const faqs = document.querySelectorAll(".faq");
 
+faqs.forEach((faq) => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("active");
+  });
+});
 const arryQuestions = [
   {
     question: "O que é o transtorno do Espectro Autista (TEA) ?",
@@ -56,12 +62,3 @@ for(let i = 0; i < arryQuestions.length; i++){
   section.appendChild(div);
 
 }
-
-
-const faqs = document.querySelectorAll(".faq");
-
-faqs.forEach((faq) => {
-  faq.addEventListener("click", () => {
-    faq.classList.toggle("active");
-  });
-});
