@@ -37,13 +37,10 @@ const arryQuestions = [
 
 for(let i = 0; i < arryQuestions.length; i++){
   
-  //criar um elemento 
-  let div = document.createElement("div");
-
   //manipular um elemento 
 
-  div.innerHTML = `
-  <div class="faq">
+  div.getElementsByClassName.faq.innerHTML = `
+  
     <div class="question${i + 1}">
       <h3>${arryQuestions[i].question}</h3>
                   
@@ -54,12 +51,12 @@ for(let i = 0; i < arryQuestions.length; i++){
     <div class="answer">
       <p>${arryQuestions[i].answer}</p>
     </div>
-  </div>
+  
 
   `
 
   //Adicionar o elemento a página
   let section = document.querySelector("section");
-  section.appendChild(div);
+  section.appendChild(div.className.faq);
 
 }
