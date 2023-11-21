@@ -43,9 +43,9 @@ for(let i = 0; i < arryQuestions.length; i++){
 
   //manipular um elemento 
   div.addEventListener("click", ()=>{
-    faq.classList.toggle("active")
+    div.classList.toggle("active")
   });
-  
+
   div.innerHTML = `
   
     <div class="question${i + 1}">
