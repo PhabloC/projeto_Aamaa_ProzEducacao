@@ -5,6 +5,8 @@ const faqs = document.querySelectorAll(".faq");
     faq.classList.toggle("active");
   });
 });
+*/
+
 const arryQuestions = [
   {
     question: "O que é o transtorno do Espectro Autista (TEA) ?",
@@ -33,7 +35,7 @@ const arryQuestions = [
 
 ]
 
-*/
+
 
 for(let i = 0; i < arryQuestions.length; i++){
   
