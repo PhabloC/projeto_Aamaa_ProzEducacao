@@ -1,6 +1,6 @@
 const faqs = document.querySelectorAll(".faq");
 
-faqs.forEach((faq) => {
+/*faqs.forEach((faq) => {
   faq.addEventListener("click", () => {
     faq.classList.toggle("active");
   });
@@ -33,7 +33,7 @@ const arryQuestions = [
 
 ]
 
-
+*/
 
 for(let i = 0; i < arryQuestions.length; i++){
   
