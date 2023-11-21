@@ -64,3 +64,6 @@ for(let i = 0; i < arryQuestions.length; i++){
   section.appendChild(div);
 
 }
+div.addEventListener("click", ()=>{
+  faq.classList.toggle("active")
+});
