@@ -110,6 +110,11 @@ form button {
   margin-right: 150px;
   width: 500px;
 }
+.helperText{
+  display: none;
+  font-size: 8rem;
+  color: darkred;
+}
   
   /*-----------Estilos dinamicos----------*/
 
