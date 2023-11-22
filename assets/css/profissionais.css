@@ -135,13 +135,13 @@ form button {
   #002d7d 77.66%
   );
 }
-.input.error{
+input.error{
   border: solid 2px #992020;
   background-color: #CCBBBB;
   color: #662020;
 }
 
-.input.correct{
+input.correct{
   background-color: #BBCCBB;
   border: solid 2px #206620;  
 }
