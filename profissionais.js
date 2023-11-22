@@ -1,28 +1,61 @@
 let inputName = document.getElementById("iName");
 let nameLabel = document.querySelector('label[for="name"]');
-let inputEmail = document.getElementById("iEmail");
+let nameHelper = document.getElementById("nameHelper")
+
 let inputNumero = document.getElementById("iNumero");
 let formulario = document.querySelector("form");
 
-//Mostrar o popup de campo obrigatório
-inputName.addEventListener("focus", ()=>{
-    nameLabel.classList.add("requiredPopup")
-});
+function mostrarPopup(input, label){
+        //Mostrar o popup de campo obrigatório
+    input.addEventListener("focus", ()=>{
+        label.classList.add("requiredPopup")
+    });
 
-//Ocultar popup de campo obrigatório
-inputName.addEventListener("blur", ()=>{
-    nameLabel.classList.remove("requiredPopup")
-});
+    //Ocultar popup de campo obrigatório
+    input.addEventListener("blur", ()=>{
+        label.classList.remove("requiredPopup")
+    });
+
+}
+mostrarPopup(inputName, nameLabel)
 
 //Validar valor do input
 inputName.addEventListener("change", (e)=>{
     let valor = e.target.value
     if(valor.lenght < 6){
         //valor incorreto
-        inputName.classList.add("error")
+        inputName.classList.remove("correct");
+        inputName.classList.add("error");
+        nameHelper.innerText = "O nome precisa ter mais de 6 caracteres"
+        nameHelper.classList.add("visible");       
     }else{
         //valor correto
-        inputName.classList.add("correct")
+        inputName.classList.remove("error");
+        inputName.classList.add("correct");
+        nameHelper.classList.remove("visible");
     }
 });
 
+// ---------Validação de e-mail --------- //
+
+let inputEmail = document.getElementById("iEmail");
+let emailLabel = document.querySelector('label[for="email"]');
+let emaillHelper = document.getElementById("emailHelper");
+
+mostrarPopup(inputEmail, emailLabel)
+
+inputEmail.addEventListener("change", (e)=>{
+    let valor = e.target.value
+    if(valor.includes("@") && valor.includes(".com")){
+        //Email valido
+        inputEmail.classList.remove("error");
+        inputEmail.classList.add("correct");
+        emaillHelper.classList.remove("visible");
+    }else{
+        //Email incorreto
+        inputEmail.classList.remove("correct");
+        inputEmail.classList.add("error");
+        emaillHelper.innerText = "Precisa inserir um e-mail válido"
+        emaillHelper.classList.add("visible");
+    }
+})
