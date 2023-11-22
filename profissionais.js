@@ -19,10 +19,10 @@ inputName.addEventListener("change", (e)=>{
     let valor = e.target.value
     if(valor.lenght < 6){
         //valor incorreto
-        nameInput.classList.add("error")
+        inputName.classList.add("error")
     }else{
         //valor correto
-        nameInput.classList.add("correct")
+        inputName.classList.add("correct")
     }
 });
 
