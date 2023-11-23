@@ -1,18 +1,11 @@
 //Variaveis name
-let inputName = document.getElementsByClassName("inputName");
+let inputName = document.getElementById("iName");
 let nameLabel = document.querySelector('label[for="name"]');
-let nameHelper = document.getElementsByClassName("nameHelp");
+let nameHelper = document.getElementById("nameHelper");
 //variaveis email
-let inputEmail = document.getElementsByClassName("inputEmail");
+let inputEmail = document.getElementById("iEmail");
 let emailLabel = document.querySelector('label[for="email"]');
-let emaillHelper = document.getElementsByClassName("emailHelp");
-
-//variaveis Submit/inputs para button
-let btnSubmit = document.querySelector('button[type="submit"]');
-let inputsCorretos = {
-    name: false,
-    email: false
-}
+let emaillHelper = document.getElementById("emailHelper");
 
 function mostrarPopup(input, label){
         //Mostrar o popup de campo obrigatório
@@ -76,6 +69,13 @@ inputEmail.addEventListener("change", (e)=>{
 })
 
 //---------- evitar envio de formulario ----------//
+
+//variaveis Submit/inputs para button
+let btnSubmit = document.querySelector('button[type="submit"]');
+let inputsCorretos = {
+    name: false,
+    email: false
+}
 
 
 
