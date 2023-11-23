@@ -6,9 +6,7 @@ let nameHelper = document.getElementById("nameHelper");
 let inputEmail = document.getElementById("iEmail");
 let emailLabel = document.querySelector('label[for="email"]');
 let emaillHelper = document.getElementById("emailHelper");
-//variaveis telefone
-let inputTelefone = document.getElementById("iTelefone");
-let telefoneHelper = document.getElementById("telefoneHelper")
+
 //variaveis Submit/inputs para button
 let btnSubmit = document.querySelector('button[type="submit"]');
 let inputsCorretos = {
@@ -76,18 +74,6 @@ inputEmail.addEventListener("change", (e)=>{
         inputsCorretos.email = false
     }
 })
-
-//Validar valor do input telefone
-inputTelefone.addEventListener("change", (e)=>{
-    let valor = e.target.value
-    if(valor.length < 10){
-        //valor incorreto
-       estilizarTnputIncorreto(inputTelefone, telefoneHelper)         
-    }else{
-        //valor correto
-       estilizarTnputCorreto(inputTelefone, telefoneHelper)       
-    }
-});
 
 //---------- evitar envio de formulario ----------//
 
