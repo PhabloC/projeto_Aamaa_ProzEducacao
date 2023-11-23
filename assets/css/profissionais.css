@@ -112,13 +112,15 @@ form button {
 }
 .helperText{
   display: none;
+  margin-top: 0;
+  margin-bottom: 20px;
   font-size: .8rem;
   color: darkred;
 }
   
   /*-----------Estilos dinamicos----------*/
 
-.requiredPopup::after{
+.requiredPopup{
   content: "*Campo obrigatório";
   position: absolute;
   top: 0;
