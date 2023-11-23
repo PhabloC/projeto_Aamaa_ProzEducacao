@@ -1,9 +1,6 @@
-let inputName = document.getElementById("iName");
-let nameLabel = document.querySelector('label[for="name"]');
-let nameHelper = document.getElementById("nameHelper")
 
 let inputNumero = document.getElementById("iNumero");
-let formulario = document.querySelector("form");
+
 
 function mostrarPopup(input, label){
         //Mostrar o popup de campo obrigatório
@@ -17,21 +14,35 @@ function mostrarPopup(input, label){
     });
 
 }
+function estilizarTnputCorreto(input, helper){
+    helper.classList.remove("visible");
+    input.classList.remove("error");
+    input.classList.add("correct");    
+}
+function estilizarTnputIncorreto(input, helper){
+    helper.classList.add("visible");
+    input.classList.add("error");
+    input.classList.remove("correct");    
+}
+
+//---------- validaçao nome ----------//
+let inputName = document.getElementById("iName");
+let nameLabel = document.querySelector('label[for="name"]');
+let nameHelper = document.getElementById("nameHelper")
+
 mostrarPopup(inputName, nameLabel)
 
 //Validar valor do input
 inputName.addEventListener("change", (e)=>{
     let valor = e.target.value
-    if(valor.lenght < 6){
+    if(valor.length < 6){
         //valor incorreto
-        inputName.classList.remove("correct");
-        inputName.classList.add("error");        
-        nameHelper.classList.add("visible");       
+       estilizarTnputIncorreto(inputName, nameHelper)  
+       inputsCorretos.name = false   
     }else{
         //valor correto
-        inputName.classList.remove("error");
-        inputName.classList.add("correct");
-        nameHelper.classList.remove("visible");
+       estilizarTnputCorreto(inputName, nameHelper)
+       inputsCorretos.name = true
     }
 });
 
@@ -47,13 +58,29 @@ inputEmail.addEventListener("change", (e)=>{
     let valor = e.target.value
     if(valor.includes("@") && valor.includes(".com")){
         //Email valido
-        inputEmail.classList.remove("error");
-        inputEmail.classList.add("correct");
-        emaillHelper.classList.remove("visible");
+        estilizarTnputCorreto(inputName, nameHelper)
+        inputsCorretos.email = true
     }else{
         //Email incorreto
-        inputEmail.classList.remove("correct");
-        inputEmail.classList.add("error");        
-        emaillHelper.classList.add("visible");
+        estilizarTnputIncorreto(inputName, nameHelper)
+        inputsCorretos.email = false
     }
 })
+
+//---------- evitar envio de formulario ----------//
+
+let btnSubmit = document.querySelector('button[type="submit]');
+let inputsCorretos = {
+    name: false,
+    email: false
+}
+
+btnSubmit.addEventListener("click", () => {
+    if(inputsCorretos.name == false ||
+        inputsCorretos.email == false){
+        e.preventDefault()
+        alert("Os campos obrigatórios precisam ser preenchidos corretamente")
+    }else{
+        alert("Formulário enviado com sucesso")
+    }
+});
