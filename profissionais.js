@@ -94,11 +94,10 @@ inputTelefone.addEventListener("change", (e)=>{
 
 
 btnSubmit.addEventListener("click", (e) => {
-    if(inputsCorretos.name == false ||
-        inputsCorretos.email == false){
+    if(inputsCorretos.name == false || inputsCorretos.email == false){
         e.preventDefault()
-        alert("Os campos obrigatórios precisam ser preenchidos corretamente");
+        alert("Os campos obrigatórios precisam ser preenchidos corretamente")
     }else{
-        alert("Formulário enviado com sucesso");
+        alert("Formulário enviado com sucesso")
     }
 });
