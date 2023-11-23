@@ -1,11 +1,11 @@
 //Variaveis name
-let inputName = document.getElementById("iName");
+let inputName = document.getElementsByClassName("inputName");
 let nameLabel = document.querySelector('label[for="name"]');
-let nameHelper = document.getElementById("nameHelper");
+let nameHelper = document.getElementsByClassName("nameHelp");
 //variaveis email
-let inputEmail = document.getElementById("iEmail");
+let inputEmail = document.getElementsByClassName("inputEmail");
 let emailLabel = document.querySelector('label[for="email"]');
-let emaillHelper = document.getElementById("emailHelper");
+let emaillHelper = document.getElementsByClassName("emailHelp");
 
 //variaveis Submit/inputs para button
 let btnSubmit = document.querySelector('button[type="submit"]');
