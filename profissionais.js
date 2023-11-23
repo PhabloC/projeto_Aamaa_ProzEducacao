@@ -10,7 +10,7 @@ let emaillHelper = document.getElementById("emailHelper");
 let inputTelefone = document.getElementById("iTelefone");
 let telefoneHelper = document.getElementById("telefoneHelper")
 //variaveis Submit/inputs para button
-let btnSubmit = document.querySelector('button[type="submit]');
+let btnSubmit = document.querySelector('button[type="submit"]');
 let inputsCorretos = {
     name: false,
     email: false
