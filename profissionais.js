@@ -25,8 +25,7 @@ inputName.addEventListener("change", (e)=>{
     if(valor.lenght < 6){
         //valor incorreto
         inputName.classList.remove("correct");
-        inputName.classList.add("error");
-        nameHelper.innerText = "O nome precisa ter mais de 6 caracteres"
+        inputName.classList.add("error");        
         nameHelper.classList.add("visible");       
     }else{
         //valor correto
@@ -54,8 +53,7 @@ inputEmail.addEventListener("change", (e)=>{
     }else{
         //Email incorreto
         inputEmail.classList.remove("correct");
-        inputEmail.classList.add("error");
-        emaillHelper.innerText = "Precisa inserir um e-mail válido"
+        inputEmail.classList.add("error");        
         emaillHelper.classList.add("visible");
     }
 })

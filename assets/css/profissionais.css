@@ -112,7 +112,7 @@ form button {
 }
 .helperText{
   display: none;
-  font-size: 8rem;
+  font-size: .8rem;
   color: darkred;
 }
   
