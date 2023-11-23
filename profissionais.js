@@ -7,7 +7,8 @@ let inputEmail = document.getElementById("iEmail");
 let emailLabel = document.querySelector('label[for="email"]');
 let emaillHelper = document.getElementById("emailHelper");
 //variaveis telefone
-let inputNumero = document.getElementById("iTelefone");
+let inputTelefone = document.getElementById("iTelefone");
+let telefoneHelper = document.getElementById("telefoneHelper")
 //variaveis Submit/inputs para button
 let btnSubmit = document.querySelector('button[type="submit]');
 let inputsCorretos = {
@@ -43,7 +44,7 @@ function estilizarTnputIncorreto(input, helper){
 
 mostrarPopup(inputName, nameLabel)
 
-//Validar valor do input
+//Validar valor do input name
 inputName.addEventListener("change", (e)=>{
     let valor = e.target.value
     if(valor.length < 6){
@@ -75,6 +76,18 @@ inputEmail.addEventListener("change", (e)=>{
         inputsCorretos.email = false
     }
 })
+
+//Validar valor do input telefone
+inputTelefone.addEventListener("change", (e)=>{
+    let valor = e.target.value
+    if(valor.length < 10){
+        //valor incorreto
+       estilizarTnputIncorreto(inputTelefone, telefoneHelper)         
+    }else{
+        //valor correto
+       estilizarTnputCorreto(inputTelefone, telefoneHelper)       
+    }
+});
 
 //---------- evitar envio de formulario ----------//
 
