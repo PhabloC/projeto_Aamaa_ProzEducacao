@@ -93,7 +93,7 @@ inputTelefone.addEventListener("change", (e)=>{
 
 
 
-btnSubmit.addEventListener("click", () => {
+btnSubmit.addEventListener("click", (e) => {
     if(inputsCorretos.name == false ||
         inputsCorretos.email == false){
         e.preventDefault()
