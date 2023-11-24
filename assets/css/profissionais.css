@@ -57,13 +57,13 @@ body {
 }
 
 main {
-  background-color: #f2f2f7;
+  background-color: #f6f6f6;
 }
 
 section {
   display: flex;
   justify-content: center;
-  background-color: #f2f2f7;
+  background-color: #f6f6f6;
     
 }
 
@@ -111,7 +111,7 @@ form button {
   justify-content: center;
   flex-direction: column;
   padding: 10px 45px;
-  background: #f2f2f7;
+  background: #f6f6f6;
   color: black;
   box-shadow: 5px 10px 18px #888888;
   border-radius: 8px;
