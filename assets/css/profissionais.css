@@ -49,6 +49,12 @@ body {
   color: black;
   margin-bottom: 5px;
 }
+section {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f7;
+    
+}
 
   
 .container h2 {
