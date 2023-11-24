@@ -49,12 +49,6 @@ body {
   color: black;
   margin-bottom: 5px;
 }
-section {
-  display: flex;
-  justify-content: center;
-  background-color: #f2f2f7;
-    
-}
 
   
 .container h2 {
@@ -112,6 +106,7 @@ form button {
 }
 .corpo {
   background-color: white;
+  padding-bottom: 10px;
 }
 
 .caixa-principal {
