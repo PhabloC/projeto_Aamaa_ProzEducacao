@@ -22,7 +22,7 @@ body {
 /* Estilizando a imagem no cabeçalho */
 .cabecalho-img img {
   position: fixed;
-  top: 0; /* Remova a margem superior */
+  top: 70px; /* Remova a margem superior */
   left: 0;
   display: block;
   width: 100%; /* Largura da tela inteira */
@@ -109,6 +109,9 @@ form button {
   margin-left: 180px;
   margin-right: 150px;
   width: 500px;
+}
+.corpo {
+  background-color: white;
 }
 .helperText{
   display: none;
