@@ -61,6 +61,7 @@ main {
 
 section {
   display: flex;
+  background-color: #f6f6f6;
 }
 .container h2 {
   font-size: 1.5rem;
