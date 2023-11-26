@@ -33,7 +33,7 @@ header {
   justify-content: space-between;
   background: #ffff; /* Defina a cor de fundo desejada para o header */
   padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
-  z-index: 999; /* Garante que o cabeçalho esteja na parte superior de outros elementos */
+  z-index: 1000; /* Garante que o cabeçalho esteja na parte superior de outros elementos */
 }
 
 header::after {
@@ -43,29 +43,32 @@ header::after {
   left: 0;
   width: 100%;
   height: 1px; /* Altura da linha de separação */
-  background: #ccc;
-  border-top: 0.1px solid black;
+  /* background: #ccc;
+  border-top: 0.1px solid black; */
 }
 
 header img {
   width: 55px; /* Tamanho da imagem */
 }
 
-header nav {
+header ul {
   display: flex;
+  list-style: none;
+  text-decoration: none;
 }
 
 header a {
   color: black; /* Cor dos links */
   text-decoration: none;
   margin-right: 20px; /* Espaço entre os links */
+  cursor: pointer;
 }
 
 header a:hover {
   color: #4dbfd7;
 }
 
-header button {
+header a button {
   left: 20px; /* Posicione o botão no canto esquerdo */
   top: 10px; /* Ajuste a distância do topo conforme necessário */
   background-color: #0074a9;
@@ -77,8 +80,52 @@ header button {
   cursor: pointer;
 }
 
-header button:hover {
-  background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+/* Responsividade cabeçalho*/
+
+#btn-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #ffff;
+    z-index: 1000;
+    transition: 0.3s ease;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #apoiar-button {
+    display: none;
+  }
+
+  #nav li {
+    margin-top: 0.5rem;
+    padding: 0.5rem 2rem;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.05);
+  }
+
+  #nav.active #menu {
+    transition: 0.6s;
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  #btn-mobile {
+    display: block; /* Exibe o ícone de menu móvel */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #btn-mobile img {
+    width: 35px;
+  }
 }
 
 /* rodapé */
