@@ -19,7 +19,7 @@ body {
 /* Estilizando a imagem no cabeçalho */
 .cabecalho-img img {
   position: fixed;
-  top: 70px; /* Remova a margem superior */
+  top: 0px; /* Remova a margem superior */
   left: 0;
   display: block;
   width: 100%; /* Largura da tela inteira */
@@ -57,6 +57,7 @@ body {
 }
 main{
   background-color: #f6f6f6;
+  margin-bottom: 0;
 }
 section {
   display: flex;
