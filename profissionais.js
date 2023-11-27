@@ -1,18 +1,22 @@
 //Variaveis name
-let inputName = document.getElementById("iName");
+let inputNamePessoa = document.getElementById("iNamePessoa");
+let inputNameProfissional = document.getElementById("iNameProfissional");
 let nameLabel = document.querySelector('label[for="name"]');
-let nameHelper = document.getElementById("nameHelper");
+let nameHelperPessoa = document.getElementById("nameHelperPessoa");
+let nameHelperProfissional = document.getElementById("nameHelperProfissional");
 
 //variaveis email
-let inputEmail = document.getElementById("iEmail");
+let inputEmailPessoa = document.getElementById("iEmailPessoa");
+let inputEmailProfissional = document.getElementById("iEmailProfissional");
 let emailLabel = document.querySelector('label[for="email"]');
-let emaillHelper = document.getElementById("emailHelper");
+let emaillHelperPessoa = document.getElementById("emailHelperPessoa");
+let emaillHelperProfissional = document.getElementById("emailHelperProfissional");
 
 //variaveis Submit/inputs para button
 let btnSubmit = document.querySelector('button[type="submit"]');
 let inputsCorretos = {
-    name: false,
-    email: false
+    name: true,
+    email: true
 }
 
 function mostrarPopup(input, label){
@@ -41,37 +45,67 @@ function estilizarInputIncorreto(input, helper){
 //---------- validaçao nome ----------//
 
 
-mostrarPopup(inputName, nameLabel)
+mostrarPopup(inputNamePessoa, nameLabel)
 
 //Validar valor do input name
-inputName.addEventListener("blur", (e)=>{
+inputNamePessoa.addEventListener("blur", (e)=>{
     let valor = e.target.value
     if(valor.length < 6){
         //valor incorreto
-       estilizarInputIncorreto(inputName, nameHelper)  
+       estilizarInputIncorreto(inputNamePessoa, nameHelperPessoa)  
        inputsCorretos.name = false   
     }else{
         //valor correto
-       estilizarInputCorreto(inputName, nameHelper)
+       estilizarInputCorreto(inputNamePessoa, nameHelperPessoa)
        inputsCorretos.name = true
     }
 });
+mostrarPopup(inputNameProfissional, nameLabel)
+
+//Validar valor do input name
+inputNameProfissional.addEventListener("blur", (e)=>{
+    let valor = e.target.value
+    if(valor.length < 6){
+        //valor incorreto
+       estilizarInputIncorreto(inputNameProfissional, nameHelperProfissional)  
+       inputsCorretos.name = false   
+    }else{
+        //valor correto
+       estilizarInputCorreto(inputNameProfissional, nameHelperProfissional)
+       inputsCorretos.name = true
+    }
+});
+
 
 // ---------Validação de e-mail --------- //
 
 
 
-mostrarPopup(inputEmail, emailLabel)
+mostrarPopup(inputEmailPessoa, emailLabel)
 
-inputEmail.addEventListener("blur", (e)=>{
+inputEmailPessoa.addEventListener("blur", (e)=>{
     let valor = e.target.value
     if(valor.includes("@") && valor.includes(".com")){
         //Email valido
-        estilizarInputCorreto(inputEmail, emailHelper)
+        estilizarInputCorreto(inputEmailPessoa, emailHelperPessoa)
         inputsCorretos.email = true
     }else{
         //Email incorreto
-        estilizarInputIncorreto(inputEmail, emaillHelper)
+        estilizarInputIncorreto(inputEmailPessoa, emaillHelperPessoa)
+        inputsCorretos.email = false
+    }
+})
+mostrarPopup(inputEmailProfissional, emailLabel)
+
+inputEmailProfissional.addEventListener("blur", (e)=>{
+    let valor = e.target.value
+    if(valor.includes("@") && valor.includes(".com")){
+        //Email valido
+        estilizarInputCorreto(inputEmailProfissional, emaillHelperProfissional)
+        inputsCorretos.email = true
+    }else{
+        //Email incorreto
+        estilizarInputIncorreto(inputEmailProfissional, emaillHelperProfissional)
         inputsCorretos.email = false
     }
 })
