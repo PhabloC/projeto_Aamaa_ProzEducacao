@@ -55,12 +55,12 @@ body {
   color: black;
   margin-bottom: 5px;
 }
-
+main{
+  background-color: #f6f6f6;
+}
 section {
   display: flex;
-  justify-content: center;
-  background-color: #f6f6f6;
-    
+  justify-content: center;    
 }
   
 .container h2 {
