@@ -12,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; /* Centraliza vertical e horizontalmente */
-  margin-bottom: 150px;
+  margin-bottom: 0;
   top: 100px; /* Ajuste o espaçamento superior conforme necessário */
 }
 
