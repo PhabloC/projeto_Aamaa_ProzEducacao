@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/profissionais.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="icon" href="assets/img/favicon.png" type="favicon" />
+
+    <title>AAMAA</title>
+  </head>
+  <body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="libras.js"></script>
+    <script>
+      new window.VLibras.Widget({
+        rootPah: "/app",
+        personalization: "https://vlibras.gov.br/config/default_logo.json",
+        opacity: 0.5,
+        position: "R",
+        avatar: "random",
+      });
+    </script>
+    <script src="./profissionais.js" defer></script>
+    <header>
+      <img src="assets/img/logo-branco.jpeg" alt="logo-branco" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="quemSomos.html">Quem somos</a>
+        <a href="informacoes.html">Informações</a>
+        <a href="profissionais.html">Profissionais</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <a href="contato.html"><button>QUERO APOIAR</button></a>      
+    </header>    
+    <div class="segundo-cabecalho">
+      <div class="cabecalho-img">
+        <img src="assets/img/Profissionais de apoio a autismo.jfif"alt="imagens de médicos"/>
+      </div>
+      <div class="nome-associacao">
+        <h1>Rede credenciada</h1>
+        <h1>de Profissionais</h1>
+      </div>
+    </div>   
+    <br>
+    <main>
+      <section>
+        <div class="container">
+          <h2>
+            A AAMAA conta com uma gama de profissionais que apoiam a nossa causa
+            e estão disponíveis para auxiliar você!
+          </h2>
+          <p>
+            Para receber ajuda de um profissional de saúde mais próximo de você,
+            preencha o formulário abaixo que entraremos em contato.
+          </p>
+          <br /><br />
+          <form action="">
+            <label for="name">*Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="iNamePessoa"
+              placeholder="Digite seu nome"
+            />
+            <p id="nameHelperPessoa" class="helperText">
+              O nome precisa ter mais de 6 caracteres
+            </p>
+
+            <label for="email">*E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="iEmailPessoa"
+              placeholder="Digite seu e-mail"
+            />
+            <p id="emailHelperPessoa" class="helperText">
+              Precisa inserir um e-mail válido
+            </p>
+
+            <label for="telefone">(DDD)+Telefone</label>
+            <input
+              type="text"
+              name="telefone"
+              id="iTelefone"
+              placeholder="Digite seu telefone"
+            />
+            <button type="submit">Enviar</button>
+          </form>
+
+        </div>
+        <div class="container">
+          <h2>
+            Se você é um profissional da saúde e deseja participar de alguma
+            forma da AAMAA, preencha o formulário abaixo que entraremos em
+            contato.
+          </h2>
+          <form action="">
+            <label for="name">*Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="iNameProfissional"              
+              placeholder="Digite seu nome"
+            />
+            <p id="nameHelperProfissional" class="helperText">
+              O nome precisa ter mais de 6 caracteres
+            </p>
+
+            <label for="email">*E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="iEmailProfissional"
+              placeholder="Digite seu e-mail"
+            />
+            <p id="emailHelperProfissional" class="helperText">
+              Precisa inserir um e-mail válido
+            </p>
+
+            <label for="telefone">(DDD)+Telefone</label>
+            <input
+              type="text"
+              name="telefone"
+              id="iTelefone"
+              placeholder="Digite seu telefone"
+            />
+            <button type="submit">Enviar</button>
+          </form>
+
+        </div>
+      </section>
+      <div class="caixa-principal">
+        <h2 class="titulos-principais2">Profissionais Especializados</h2>
+        <div class="bloco-container2">
+          <div class="bloco2">
+            <img
+              src="./assets/img/médicos neurologistas.jfif"
+              alt="médico neurologísta"
+            />
+            <p>Neurologistas</p>
+          </div>
+          <div class="bloco2">
+            <img
+              src="./assets/img/médicos psicologo.jfif"
+              alt="médico psicólogo"
+            />
+            <p>Psicólogos</p>
+          </div>
+          <div class="bloco2">
+            <img
+              src="./assets/img/acompanhamento terapeutico.jfif"
+              alt="acompanhante terapêutico"
+            />
+            <p>Acompanhamento Terapêutico</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="quemSomos.html">Quem somos</a>
+        <a href="informacoes.html">Informações</a>
+        <a href="profissionais.html">Profissionais</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div>
+        <p>©2023 Autismo e Realidade. <br />Todos os direitos reservados</p>
+        <p>Rua Cloud - nº 04 - São Paulo - SP</p>
+        <p>Equipe Talento Cloud 04</p>
+      </div>
+      <div>
+        <img src="assets/img/logo-semfundo.png" alt="logo-semFundo" />
+      </div>
+    </footer>
+  </body>
+</html>

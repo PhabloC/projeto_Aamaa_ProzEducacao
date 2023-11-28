@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AAMAA</title>
+
+    <link rel="stylesheet" href="./assets/css/informacoes.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="icon" href="assets/img/favicon.png" type="favicon" />
+  </head>
+  <body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="libras.js"></script>
+    <script>
+      new window.VLibras.Widget({
+        rootPah: "/app",
+        personalization: "https://vlibras.gov.br/config/default_logo.json",
+        opacity: 0.5,
+        position: "R",
+        avatar: "random",
+      });
+    </script>
+    <header>
+      <img src="assets/img/logo-branco.jpeg" alt="logo-branco" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="quemSomos.html">Quem somos</a>
+        <a href="informacoes.html">Informações</a>
+        <a href="profissionais.html">Profissionais</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <a href="contato.html"><button>QUERO APOIAR</button></a>
+    </header>
+    <hr />
+    <div class="segundo-cabecalho">
+      <div class="cabecalho-video">
+        <video id=""video-background" playsinline autoplay muted loop">
+          <source
+          src="assets/img/video-cabecalho.mp4"
+          type="video/mp4"
+          alt="video-cabecalho"
+        />
+        </video>
+        
+      </div>
+      <div class="nome-associacao"></div>
+    </div>
+    <div class="corpo">
+        <section class="section-border">        
+          <h2 class="title">FAQs</h2>
+          
+        </section>
+      <hr />
+      <footer>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="quemSomos.html">Quem somos</a>
+          <a href="informacoes.html">Informações</a>
+          <a href="profissionais.html">Profissionais</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+        <div>
+          <p>©2023 Autismo e Realidade. <br />Todos os direitos reservados</p>
+          <p>Rua Cloud - nº 04 - São Paulo - SP</p>
+          <p>Equipe Talento Cloud 04</p>
+        </div>
+        <div>
+          <img src="assets/img/logo-semfundo.png" alt="logo-semFundo" />
+        </div>
+      </footer>
+    </div>
+    <script src="informacoes.js" defer></script>
+  </body>
+</html>
