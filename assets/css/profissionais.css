@@ -29,14 +29,7 @@ body {
   pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
 }
 
-/* Estilizando o nome da associação */
-.nome-associacao h1 {
-  font-size: 45px; /* Tamanho da fonte */
-  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
-  text-align: center; /* Alinha o texto à esquerda */
-  color:  black;
-  margin-bottom: 8px;
-}
+
 
 .nome-associacao {
   position: absolute;
@@ -45,6 +38,15 @@ body {
   padding: 10px;
   text-align: center;
   color: black;
+}
+
+/* Estilizando o nome da associação */
+.nome-associacao h1 {
+  font-size: 45px; /* Tamanho da fonte */
+  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
+  text-align: center; /* Alinha o texto à esquerda */
+  color:  black;
+  margin-bottom: 8px;
 }
 
 
