@@ -15,7 +15,7 @@
         <div class="vw-plugin-top-wrapper"></div>
       </div>
     </div>
-    <script src="libras.js"></script>
+    <script src="./src/libras.js"></script>
     <script>
       new window.VLibras.Widget({
         rootPah: "/app",
@@ -25,17 +25,26 @@
         avatar: "random",
       });
     </script>
-    <script src="quemSomos.js"></script>
+    <script src="./src/quemSomos.js"></script>
     <header>
-      <img src="../assets/img/logo-branco.jpeg" alt="logo-branco" />
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="quemSomos.html">Quem somos</a>
-        <a href="informacoes.html">Informações</a>
-        <a href="profissionais.html">Profissionais</a>
-        <a href="contato.html">Contato</a>
+      <img src="assets/img/logo-branco.jpeg" alt="logo-branco" />
+      <nav id="nav">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quemSomos.html">Quem somos</a></li>
+          <li><a href="informacoes.html">Informações</a></li>
+          <li><a href="profissionais.html">Profissionais</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li></li>
+        </ul>
       </nav>
-      <a href="contato.html"><button>QUERO APOIAR</button></a>
+      <a id="apoiar-button" href="contato.html"
+        ><button>QUERO APOIAR</button></a
+      >
+
+      <button id="btn-mobile">
+        <img class="icon" src="assets/img/icon-menu.svg" />
+      </button>
     </header>
     <div class="segundo-cabecalho">
       <div class="cabecalho-img">
@@ -180,5 +189,6 @@
         </div>
       </footer>
     </div>
+    <script src=".//src/global.js"></script>
   </body>
 </html>

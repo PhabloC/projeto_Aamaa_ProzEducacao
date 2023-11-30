@@ -16,7 +16,7 @@
         <div class="vw-plugin-top-wrapper"></div>
       </div>
     </div>
-    <script src="libras.js"></script>
+    <script src="./src/libras.js"></script>
     <script>
       new window.VLibras.Widget({
         rootPah: "/app",
@@ -26,28 +26,40 @@
         avatar: "random",
       });
     </script>
-    <script src="./profissionais.js" defer></script>
+    <script src="./src/profissionais.js" defer></script>
     <header>
-      <img src="../assets/img/logo-branco.jpeg" alt="logo-branco" />
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="quemSomos.html">Quem somos</a>
-        <a href="informacoes.html">Informações</a>
-        <a href="profissionais.html">Profissionais</a>
-        <a href="contato.html">Contato</a>
+      <img src="assets/img/logo-branco.jpeg" alt="logo-branco" />
+      <nav id="nav">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quemSomos.html">Quem somos</a></li>
+          <li><a href="informacoes.html">Informações</a></li>
+          <li><a href="profissionais.html">Profissionais</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li></li>
+        </ul>
       </nav>
-      <a href="contato.html"><button>QUERO APOIAR</button></a>      
-    </header>    
+      <a id="apoiar-button" href="contato.html"
+        ><button>QUERO APOIAR</button></a
+      >
+
+      <button id="btn-mobile">
+        <img class="icon" src="assets/img/icon-menu.svg" />
+      </button>
+    </header>
     <div class="segundo-cabecalho">
       <div class="cabecalho-img">
-        <img src="../assets/img/Profissionais de apoio a autismo.jfif"alt="imagens de médicos"/>
+        <img
+          src="../assets/img/Profissionais de apoio a autismo.jfif"
+          alt="imagens de médicos"
+        />
       </div>
       <div class="nome-associacao">
         <h1>Rede credenciada</h1>
         <h1>de Profissionais</h1>
       </div>
-    </div>   
-    <br>
+    </div>
+    <br />
     <main>
       <section>
         <div class="container">
@@ -92,7 +104,6 @@
             />
             <button type="submit">Enviar</button>
           </form>
-
         </div>
         <div class="container">
           <h2>
@@ -105,7 +116,7 @@
             <input
               type="text"
               name="name"
-              id="iNameProfissional"              
+              id="iNameProfissional"
               placeholder="Digite seu nome"
             />
             <p id="nameHelperProfissional" class="helperText">
@@ -132,7 +143,6 @@
             />
             <button type="submit">Enviar</button>
           </form>
-
         </div>
       </section>
       <div class="caixa-principal">
@@ -179,5 +189,6 @@
         <img src="../assets/img/logo-semfundo.png" alt="logo-semFundo" />
       </div>
     </footer>
+    <script src=".//src/global.js"></script>
   </body>
 </html>

@@ -6,12 +6,3 @@ document.addEventListener("DOMContentLoaded", function () {
     alert("Redirecionando para a página de doação...");
   });
 });
-
-const btnMobile = document.getElementById("btn-mobile");
-
-function toggleMenu() {
-  const nav = document.getElementById("nav");
-  nav.classList.toggle("active");
-}
-
-btnMobile.addEventListener("click", toggleMenu);
