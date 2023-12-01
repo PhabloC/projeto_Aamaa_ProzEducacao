@@ -29,6 +29,7 @@ body {
   pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
 }
 
+<<<<<<< HEAD
 /* Estilizando o nome da associação */
 .nome-associacao h1 {
   font-size: 45px; /* Tamanho da fonte */
@@ -37,6 +38,9 @@ body {
   color: black;
   margin-bottom: 8px;
 }
+=======
+
+>>>>>>> 0f37101b91b4c7c473e78eb07d5a47439db5724d
 
 .nome-associacao {
   position: absolute;
@@ -47,6 +51,19 @@ body {
   color: black;
 }
 
+<<<<<<< HEAD
+=======
+/* Estilizando o nome da associação */
+.nome-associacao h1 {
+  font-size: 45px; /* Tamanho da fonte */
+  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
+  text-align: center; /* Alinha o texto à esquerda */
+  color:  black;
+  margin-bottom: 8px;
+}
+
+
+>>>>>>> 0f37101b91b4c7c473e78eb07d5a47439db5724d
 .nome-associacao h2 {
   font-size: 40px; /* Tamanho da fonte */
   margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */

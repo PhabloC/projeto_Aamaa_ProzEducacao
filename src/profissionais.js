@@ -15,7 +15,8 @@ let emaillHelperProfissional = document.getElementById(
 );
 
 //variaveis Submit/inputs para button
-let btnSubmit = document.querySelector('button[type="submit"]');
+let form1 = document.getElementById("form1");
+let form2 = document.getElementById("form2");
 let inputsCorretos = {
   name: true,
   email: true,
@@ -109,6 +110,7 @@ inputEmailProfissional.addEventListener("blur", (e) => {
 
 //---------- evitar envio de formulario ----------//
 
+<<<<<<< HEAD
 btnSubmit.addEventListener("click", (e) => {
   if (inputsCorretos.name == false || inputsCorretos.email == false) {
     e.preventDefault();
@@ -117,3 +119,28 @@ btnSubmit.addEventListener("click", (e) => {
     alert("Formulário enviado com sucesso");
   }
 });
+=======
+
+form1.addEventListener("click", (e) => {
+    if(inputsCorretos.name == false || 
+        inputsCorretos.email == false ||
+        inputNamePessoa.valor == "" ||
+        inputEmailPessoa.valor == ""){
+        e.preventDefault()
+        alert("Os campos obrigatórios precisam ser preenchidos corretamente")
+    }else{
+        alert("Formulário enviado com sucesso")
+    }
+});
+form2.addEventListener("click", (e) => {
+    if(inputsCorretos.name == false || 
+        inputsCorretos.email == false ||
+        inputNameProfissional.valor == "" ||
+        inputEmailProfissional.valor == ""){
+        e.preventDefault()
+        alert("Os campos obrigatórios precisam ser preenchidos corretamente")
+    }else{
+        alert("Formulário enviado com sucesso")
+    }
+});
+>>>>>>> 0f37101b91b4c7c473e78eb07d5a47439db5724d
