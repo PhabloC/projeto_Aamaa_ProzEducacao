@@ -1,5 +1,6 @@
 .corpo {
   background-color: white;
+  width: 100%; /* Largura da tela inteira */
 }
 
 /* Estilizando o segundo cabeçalho */
@@ -192,4 +193,132 @@
 
 .caixa-principal2 button:hover {
   background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+}
+
+/* Estilo para telas menores que 414x896 pixels */
+@media only screen and (max-width: 730px) {
+  /* Estilizando o segundo cabeçalho */
+  .segundo-cabecalho {
+    height: 80vh; /* Altura da tela inteira */
+    flex-shrink: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza vertical e horizontalmente */
+    margin-bottom: 150px;
+    top: 100px; /* Ajuste o espaçamento superior conforme necessário */
+  }
+
+  /* Estilizando a imagem no cabeçalho */
+  .cabecalho-img img {
+    position: fixed;
+    top: 0; /* Remova a margem superior */
+    left: 0;
+    display: block;
+    width: 90vh; /* Largura da tela inteira */
+    height: 90vh; /* Altura da tela inteira */
+    object-fit: cover;
+    z-index: -1; /* Certifica-se de que a imagem fique atrás do conteúdo */
+    pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
+  }
+
+  .nome-associacao {
+    text-align: center;
+    padding-top: 6rem;
+    margin-top: 6rem;
+    font-size: 5px;
+    top: 20px;
+    left: 10px;
+  }
+
+  /* Estilo para o corpo */
+  .corpo {
+    padding: 20px;
+  }
+
+  /* Estilo para os títulos principais */
+  .titulos-principais,
+  .titulos-principais2 {
+    padding-left: 20px;
+  }
+
+  /* Estilo para os subtítulos */
+  .subtitulos {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 55px;
+  }
+
+  /* Estilo para as imagens esquerda e direita */
+  .img-esquerdo,
+  .img-direito {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .img-esquerdo2,
+  .img-direito2 {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .img-direito,
+  .img-esquerdo2 {
+    display: none;
+  }
+  .img-esquerdo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .img-direito2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Estilo para a caixa principal */
+  .caixa-principal {
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 55px;
+  }
+
+  .bloco-container {
+    padding-left: 4rem;
+  }
+
+  .caixa-principal2 {
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 55px;
+  }
+
+  /* Estilo para os blocos */
+  .bloco-container {
+    width: 100%;
+  }
+
+  /* Estilo para o footer */
+  footer {
+    background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+    margin-top: 3rem;
+    /* padding: 20px 0; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  footer div {
+    margin-right: 2rem;
+  }
+
+  footer img {
+    padding-top: 2.5rem;
+    margin-right: 50px; /* Ajuste a margem conforme necessário */
+  }
 }
