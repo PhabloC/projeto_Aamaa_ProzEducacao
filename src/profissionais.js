@@ -123,28 +123,29 @@ inputEmailProfissional.addEventListener("blur", (e) => {
 
 
 form1.addEventListener("click", (e) => {
-    if(inputsCorretos.name == false || 
-        inputsCorretos.email == false ||
-        inputNamePessoa.valor == "" ||
-        inputEmailPessoa.valor == ""){
-        e.preventDefault()
-        alert("Os campos obrigatórios precisam ser preenchidos corretamente")
-    }else{
-        alert("Formulário enviado com sucesso")
-    }
+  if(inputsCorretos.name == false || 
+     inputsCorretos.email == false || 
+     inputNamePessoa.valor == "" || 
+     inputEmailPessoa.value == ""
+     ){
+      e.preventDefault()
+      alert("Os campos obrigatórios precisam ser preenchidos corretamente")
+  }else{
+      alert("Formulário enviado com sucesso")
+  }
 });
 form2.addEventListener("click", (e) => {
-    if(inputsCorretos.name == false || 
-        inputsCorretos.email == false ||
-        inputNameProfissional.valor == "" ||
-        inputEmailProfissional.valor == ""){
-        e.preventDefault()
-        alert("Os campos obrigatórios precisam ser preenchidos corretamente")
-    }else{
-        alert("Formulário enviado com sucesso")
-    }
+  if(inputsCorretos.name == false || 
+     inputsCorretos.email == false || 
+     inputNameProfissional.valor == "" || 
+     inputEmailProfissional.value == ""
+     ){
+      e.preventDefault()
+      alert("Os campos obrigatórios precisam ser preenchidos corretamente")
+  }else{
+      alert("Formulário enviado com sucesso")
+  }
 });
-
 
 
 
