@@ -12,6 +12,21 @@ inputName.addEventListener("blur", ()=>{
     inputName.style.border = ""   
 }
 )
+//variavel Email
+let inputEmail = document.getElementById("iemail")
+
+//aplicar evento focus
+
+inputEmail.addEventListener("focus", ()=>{
+    inputEmail.style.border = "solid 2px #662020"
+
+} )
+//Ocultat popup do Email
+inputEmail.addEventListener("blur", ()=>{
+    inputEmail.style.border = ""
+})
+
+ 
 
 
 
