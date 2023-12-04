@@ -163,7 +163,7 @@ form button {
   padding: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   margin-top: 80px; /* Aumenta a margem superior em 20px */
-  margin-bottom: 80px;
+  margin-bottom: 0;
 }
 
 .bloco-container2 {
