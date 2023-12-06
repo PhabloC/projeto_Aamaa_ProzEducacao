@@ -195,7 +195,6 @@
   background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
 }
 
-/* Estilo para telas menores que 414x896 pixels */
 @media only screen and (max-width: 730px) {
   /* Estilizando o segundo cabeçalho */
   .segundo-cabecalho {
