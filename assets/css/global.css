@@ -31,7 +31,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #ffff; /* Defina a cor de fundo desejada para o header */
+  background: linear-gradient(
+    238deg,
+    rgba(177, 242, 250, 1) 21%,
+    rgba(177, 242, 250, 1) 50%,
+    rgba(177, 242, 250, 1) 77%
+  ); /* Defina a cor de fundo desejada para o header */
   padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
   z-index: 1000; /* Garante que o cabeçalho esteja na parte superior de outros elementos */
 }
@@ -65,7 +70,7 @@ header a {
 }
 
 header a:hover {
-  color: #4dbfd7;
+  color: #0805cf;
 }
 
 header a button {
