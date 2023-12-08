@@ -30,11 +30,6 @@ body {
 }
 
 
-
-/*<<<<<<< HEAD*/
-
-
-
 /* Estilizando o nome da associação */
 .nome-associacao h1 {
   font-size: 45px; /* Tamanho da fonte */
@@ -43,12 +38,6 @@ body {
   color: black;
   margin-bottom: 8px;
 }
-
-
-/*=======*/
-
-/*>>>>>>> 0f37101b91b4c7c473e78eb07d5a47439db5724d*/
-
 
 
 .nome-associacao {
@@ -61,12 +50,6 @@ body {
 }
 
 
-
-/*<<<<<<< HEAD*/
-/*=======*/
-
-
-
 /* Estilizando o nome da associação */
 .nome-associacao h1 {
   font-size: 45px; /* Tamanho da fonte */
@@ -77,13 +60,6 @@ body {
 }
 
 
-
-
-/*>>>>>>> 0f37101b91b4c7c473e78eb07d5a47439db5724d*/
-
-
-
-
 .nome-associacao h2 {
   font-size: 40px; /* Tamanho da fonte */
   margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
@@ -91,6 +67,11 @@ body {
   color: black;
   margin-bottom: 5px;
 }
+.corpo{
+
+  background-color: #f6f6f6;
+}
+
 main {
   background-color: #f6f6f6;
   margin-bottom: 0;
@@ -140,7 +121,7 @@ form button {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   padding: 10px 45px;
   background: #f6f6f6;
@@ -163,7 +144,7 @@ form button {
   padding: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   margin-top: 80px; /* Aumenta a margem superior em 20px */
-  margin-bottom: 0;
+  margin-bottom: 80px;
 }
 
 .bloco-container2 {
