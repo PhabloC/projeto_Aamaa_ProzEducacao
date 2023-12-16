@@ -1,8 +1,13 @@
 /* Estilizando o segundo cabeçalho */
 
-html,
+/* html,
 body {
   overflow-x: hidden;
+} */
+
+.corpo {
+  background-color: white;
+  width: 100%; /* Largura da tela inteira */
 }
 
 .segundo-cabecalho {
@@ -12,14 +17,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; /* Centraliza vertical e horizontalmente */
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   top: 100px; /* Ajuste o espaçamento superior conforme necessário */
 }
 
 /* Estilizando a imagem no cabeçalho */
 .cabecalho-img img {
   position: fixed;
-  top: 0px; /* Remova a margem superior */
+  top: 0; /* Remova a margem superior */
   left: 0;
   display: block;
   width: 100%; /* Largura da tela inteira */
@@ -29,16 +34,15 @@ body {
   pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
 }
 
-
 /* Estilizando o nome da associação */
 .nome-associacao h1 {
   font-size: 45px; /* Tamanho da fonte */
   margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
   text-align: center; /* Alinha o texto à esquerda */
-  color: black;
+  color: #ffff;
   margin-bottom: 8px;
+  margin-left: 50px;
 }
-
 
 .nome-associacao {
   position: absolute;
@@ -46,36 +50,9 @@ body {
   left: 32%; /* Alinha o texto horizontalmente ao centro */
   padding: 10px;
   text-align: center;
-  color: black;
+  color: #ffff;
 }
 
-
-/* Estilizando o nome da associação */
-.nome-associacao h1 {
-  font-size: 45px; /* Tamanho da fonte */
-  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
-  text-align: center; /* Alinha o texto à esquerda */
-  color:  black;
-  margin-bottom: 8px;
-}
-
-
-.nome-associacao h2 {
-  font-size: 40px; /* Tamanho da fonte */
-  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
-  text-align: center; /* Alinha o texto à esquerda */
-  color: black;
-  margin-bottom: 5px;
-}
-.corpo{
-
-  background-color: #f6f6f6;
-}
-
-main {
-  background-color: #f6f6f6;
-  margin-bottom: 0;
-}
 section {
   display: flex;
   justify-content: center;
@@ -198,6 +175,10 @@ form button {
   text-align: center; /* Alinha o texto ao centro horizontalmente */
 }
 
+.caixa-principal {
+  margin-bottom: 20px;
+}
+
 .caixa-principal img {
   width: 162.96px;
   height: 97px;
@@ -216,6 +197,10 @@ form button {
   font-size: 0.8rem;
   color: darkred;
 }
+
+/* footer {
+  padding-top: 80px;
+} */
 
 /*-----------Estilos dinamicos----------*/
 

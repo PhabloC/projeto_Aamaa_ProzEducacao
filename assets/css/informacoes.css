@@ -169,7 +169,7 @@ svg {
 }
 
 /* Estilizando a imagem no cabeçalho */
-.cabecalho-video video {
+.cabecalho-img img {
   position: fixed;
   top: 0; /* Remova a margem superior */
   left: 0;
@@ -177,6 +177,34 @@ svg {
   width: 100%; /* Largura da tela inteira */
   height: 90vh; /* Altura da tela inteira */
   object-fit: cover;
-  z-index: -1000; /* Certifica-se de que a imagem fique atrás do conteúdo */
+  z-index: -1; /* Certifica-se de que a imagem fique atrás do conteúdo */
   pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
+}
+
+.nome-associacao {
+  position: absolute;
+  top: 40%; /* Ajusta a distância do topo conforme necessário */
+  left: 32%; /* Alinha o texto horizontalmente ao centro */
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Estilizando o nome da associação */
+.nome-associacao h1 {
+  font-size: 45px; /* Tamanho da fonte */
+  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
+  text-align: center; /* Alinha o texto à esquerda */
+  color: #ffff;
+  margin-bottom: 8px;
+  margin-left: 50px;
+}
+
+.nome-associacao h2 {
+  font-size: 40px; /* Tamanho da fonte */
+  margin: 0; /* Redefine a margem para remover o espaçamento superior e inferior */
+  text-align: center; /* Alinha o texto à esquerda */
+  color: #ffff;
+  margin-bottom: 5px;
+  margin-left: 50px;
 }
