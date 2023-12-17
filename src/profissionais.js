@@ -108,45 +108,30 @@ inputEmailProfissional.addEventListener("blur", (e) => {
   }
 });
 
-//---------- evitar envio de formulario ----------//
-
-//<<<<<<< HEAD
-
-
-
-
-
-
-//=======
-
-
-
-
 form1.addEventListener("click", (e) => {
-  if(inputsCorretos.name == false || 
-     inputsCorretos.email == false || 
-     inputNamePessoa.valor == "" || 
-     inputEmailPessoa.value == ""
-     ){
-      e.preventDefault()
-      alert("Os campos obrigatórios precisam ser preenchidos corretamente")
-  }else{
-      alert("Formulário enviado com sucesso")
+  if (
+    inputsCorretos.name == false ||
+    inputsCorretos.email == false ||
+    inputNamePessoa.valor == "" ||
+    inputEmailPessoa.value == ""
+  ) {
+    e.preventDefault();
+    alert("Os campos obrigatórios precisam ser preenchidos corretamente");
+  } else {
+    alert("Formulário enviado com sucesso");
   }
 });
+
 form2.addEventListener("click", (e) => {
-  if(inputsCorretos.name == false || 
-     inputsCorretos.email == false || 
-     inputNameProfissional.valor == "" || 
-     inputEmailProfissional.value == ""
-     ){
-      e.preventDefault()
-      alert("Os campos obrigatórios precisam ser preenchidos corretamente")
-  }else{
-      alert("Formulário enviado com sucesso")
+  if (
+    inputsCorretos.name == false ||
+    inputsCorretos.email == false ||
+    inputNameProfissional.valor == "" ||
+    inputEmailProfissional.value == ""
+  ) {
+    e.preventDefault();
+    alert("Os campos obrigatórios precisam ser preenchidos corretamente");
+  } else {
+    alert("Formulário enviado com sucesso");
   }
 });
-
-
-
-//>>>>>>> 0f37101b91b4c7c473e78eb07d5a47439db5724d

@@ -1,13 +1,9 @@
 /* Estilizando o segundo cabeçalho */
 
-/* html,
-body {
-  overflow-x: hidden;
-} */
-
 .corpo {
   background-color: white;
   width: 100%; /* Largura da tela inteira */
+  height: 75rem;
 }
 
 .segundo-cabecalho {
@@ -59,8 +55,14 @@ section {
 }
 
 .container h2 {
-  font-size: 1.5rem;
-  margin: 2rem;
+  font-size: 25px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.container p {
+  font-size: 15px;
+  text-align: justify;
 }
 
 .container form {
@@ -112,6 +114,14 @@ form button {
   width: 400px;
 }
 
+.helperText {
+  display: none;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+  color: darkred;
+}
+
 .caixa-principal {
   background-color: #f6f6f6;
   border-radius: 15px;
@@ -124,16 +134,22 @@ form button {
   margin-bottom: 80px;
 }
 
+.caixa-principal img {
+  width: 162.96px;
+  height: 97px;
+  flex-shrink: 0;
+}
+
+.caixa-principal h2 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
 .bloco-container2 {
   display: flex; /* Usar flexbox para organizar as imagens lado a lado */
   justify-content: space-between; /* Espaço igual entre as imagens */
   align-items: flex-start;
   margin-top: 20px;
-
-  /* width: 23%; */ /* Largura das caixas contendo os blocos (48% para deixar espaço entre elas) */
-  /* margin: 0; */ /* Adiciona um pequeno espaço entre as caixas */
-  /*  margin-top: 20px; */
-  /* padding: 8px; */ /* Espaçamento interno nas caixas */
 }
 
 .bloco2 {
@@ -174,33 +190,6 @@ form button {
   color: #0066b3;
   text-align: center; /* Alinha o texto ao centro horizontalmente */
 }
-
-.caixa-principal {
-  margin-bottom: 20px;
-}
-
-.caixa-principal img {
-  width: 162.96px;
-  height: 97px;
-  flex-shrink: 0;
-}
-
-.caixa-principal h2 {
-  font-size: 20px;
-  margin-top: 15px;
-}
-
-.helperText {
-  display: none;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 0.8rem;
-  color: darkred;
-}
-
-/* footer {
-  padding-top: 80px;
-} */
 
 /*-----------Estilos dinamicos----------*/
 
