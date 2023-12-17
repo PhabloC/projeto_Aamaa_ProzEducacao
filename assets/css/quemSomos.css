@@ -1,5 +1,5 @@
 .corpo {
-  background-color: white;
+  background-color: #f8feff;
   min-height: 100vh; /* Altere para min-height para ocupar pelo menos a altura total da tela */
   overflow-x: hidden; /* Oculta a barra de rolagem horizontal se houver */
 }
@@ -164,11 +164,6 @@
   justify-content: space-between; /* Espaço igual entre as imagens */
   align-items: flex-start;
   margin-top: 20px;
-
-  /* width: 23%; */ /* Largura das caixas contendo os blocos (48% para deixar espaço entre elas) */
-  /* margin: 0; */ /* Adiciona um pequeno espaço entre as caixas */
-  /*  margin-top: 20px; */
-  /* padding: 8px; */ /* Espaçamento interno nas caixas */
 }
 
 .bloco2 {

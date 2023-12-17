@@ -1,7 +1,7 @@
 /* Estilizando o segundo cabeçalho */
 
 .corpo {
-  background-color: white;
+  background-color: #f8feff;
   width: 100%; /* Largura da tela inteira */
   height: 75rem;
 }
@@ -134,17 +134,6 @@ form button {
   margin-bottom: 80px;
 }
 
-.caixa-principal img {
-  width: 162.96px;
-  height: 97px;
-  flex-shrink: 0;
-}
-
-.caixa-principal h2 {
-  font-size: 20px;
-  margin-top: 15px;
-}
-
 .bloco-container2 {
   display: flex; /* Usar flexbox para organizar as imagens lado a lado */
   justify-content: space-between; /* Espaço igual entre as imagens */
@@ -165,6 +154,17 @@ form button {
   transition: transform 0.3s; /* Adiciona uma transição suave para o efeito de zoom */
 }
 
+/* .caixa-principal img {
+  width: 162.96px;
+  height: 97px;
+  flex-shrink: 0;
+} */
+
+.caixa-principal h2 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
 .bloco2:hover {
   transform: scale(
     1.1
@@ -174,8 +174,8 @@ form button {
 }
 
 .bloco2 img {
-  width: 100%; /* Preenche todo o espaço disponível no bloco */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 95%; /* Preenche todo o espaço disponível no bloco */
+  height: 7rem; /* Mantém a proporção da imagem */
   border-radius: 15px;
 }
 

@@ -56,7 +56,7 @@ body {
 }
 
 main {
-  background-color: #fff;
+  background-color: #f8feff;
 }
 
 section {
@@ -121,6 +121,10 @@ form button {
   margin-left: 180px;
   margin-right: 150px;
   width: 300px;
+}
+
+.container h1 {
+  font-size: 2rem;
 }
 
 aside {
