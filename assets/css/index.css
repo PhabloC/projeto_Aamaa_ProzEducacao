@@ -312,12 +312,15 @@
     padding-right: 5rem;
   }
 
+  footer nav {
+    margin: 2rem;
+  }
+
   footer div {
     margin-right: 2rem;
   }
 
   footer img {
-    padding-top: 2.5rem;
-    margin-right: 50px; /* Ajuste a margem conforme necessário */
+    display: none;
   }
 }
