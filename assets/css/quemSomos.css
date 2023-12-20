@@ -102,6 +102,16 @@
   margin-top: 40px;
 }
 
+.integrantes {
+  width: 100%; /* Largura das caixas contendo os blocos (48% para deixar espaço entre elas) */
+  padding: 20px; /* Espaçamento interno nas caixas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Faz com que os blocos envolvam para a próxima linha quando não houver espaço suficiente */
+  margin-top: 40px;
+}
+
 .bloco {
   width: 135px;
   height: 223px;
@@ -145,6 +155,64 @@
   margin-top: 15px;
   line-height: 1.5;
   margin-left: 16px;
+}
+
+.integrantes-container {
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.integrantes {
+  display: flex;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+.integrantes div {
+  text-align: center;
+}
+
+.imgInte {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.imgIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.integrantes-container h2 {
+  color: #0066b3;
+  margin-top: 20px;
+}
+
+.integrantes h3 {
+  color: #ff9800;
+  margin-bottom: 10px;
+}
+
+.integrantes h4 {
+  color: #ff9800;
+  margin-bottom: 10px;
+}
+
+.integrantes a {
+  text-decoration: none;
+  color: #000;
+}
+
+.imgIcon:hover {
+  /* background: #0942e8; */
+  border-radius: 50px;
+  box-shadow: 0 0 5px #3b5998, 0 0 25px #3b5998, 0 0 50px #3b5998,
+    0 0 100px #3b5998;
 }
 
 .caixa-principal {

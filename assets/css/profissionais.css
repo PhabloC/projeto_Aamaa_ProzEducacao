@@ -154,12 +154,6 @@ form button {
   transition: transform 0.3s; /* Adiciona uma transição suave para o efeito de zoom */
 }
 
-/* .caixa-principal img {
-  width: 162.96px;
-  height: 97px;
-  flex-shrink: 0;
-} */
-
 .caixa-principal h2 {
   font-size: 20px;
   margin-top: 15px;
@@ -223,4 +217,134 @@ input.correct {
 
 .visible {
   display: block;
+}
+
+@media only screen and (max-width: 730px) {
+  /* Estilizando o segundo cabeçalho */
+  .segundo-cabecalho {
+    height: 80vh; /* Altura da tela inteira */
+    flex-shrink: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza vertical e horizontalmente */
+    margin-bottom: 150px;
+    top: 100px; /* Ajuste o espaçamento superior conforme necessário */
+  }
+
+  /* Estilizando a imagem no cabeçalho */
+  .cabecalho-img img {
+    position: fixed;
+    top: 0; /* Remova a margem superior */
+    left: 0;
+    display: block;
+    width: 90vh; /* Largura da tela inteira */
+    height: 90vh; /* Altura da tela inteira */
+    object-fit: cover;
+    z-index: -1; /* Certifica-se de que a imagem fique atrás do conteúdo */
+    pointer-events: none; /* Garante que a imagem não capture eventos do mouse, permitindo que o conteúdo passe por cima */
+  }
+
+  .nome-associacao {
+    text-align: center;
+    margin-right: 25px;
+    font-size: 3px;
+    left: 5px;
+    padding-top: 5px;
+  }
+
+  /* Estilo para o corpo */
+  .corpo {
+    width: 100%; /* Largura da tela inteira */
+    height: 100rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Altera a direção do layout para coluna */
+    /* height: auto; */
+    /* width: auto; */
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+
+  .caixa-principal {
+    /* display: flex; */
+    flex-direction: column; /* Altera a direção do layout para coluna */
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .bloco-container2 {
+    /* display: flex; */
+    flex-direction: column; /* Altera a direção do layout para coluna */
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  /* Estilo para os títulos principais */
+  /* .titulos-principais,
+  .titulos-principais2 {
+    padding-left: 20px;
+  } */
+
+  /* Estilo para os subtítulos */
+  /* .subtitulos {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 55px;
+  } */
+
+  /* Estilo para a caixa principal */
+  /* .caixa-principal {
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 55px;
+  } */
+
+  /* .bloco-container {
+    padding-left: 4rem;
+  } */
+
+  /* .caixa-principal2 {
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 55px;
+  } */
+
+  /* Estilo para os blocos */
+  /* .bloco-container {
+    width: 100%;
+  } */
+
+  /* Estilo para o footer */
+  footer {
+    background: linear-gradient(90deg, #4dbfd7 8.94%, #49eeda 91.34%);
+    /* margin-top: 1rem; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  footer nav {
+    margin: 2rem;
+  }
+
+  footer div {
+    margin-right: 2rem;
+  }
+
+  footer img {
+    display: none;
+  }
 }
